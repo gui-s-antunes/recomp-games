@@ -1,0 +1,383 @@
+# Exportado do catálogo público do Quiver Launcher (api.quiverlauncher.com/api/v1/apps) em 2026-10-16.
+# Colunas: repositório	jogo	consoles (códigos do Quiver)	uso de IA declarado (none|assisted|generated)	sistemas suportados
+# Removidos na exportação: emuladores, ferramentas, launchers, jogos originais (não são ports) e servidores.
+https://github.com/2ship2harkinian/2ship2harkinian	The Legend of Zelda: Majora's Mask	n64	none	linux,macos,windows
+https://github.com/sal063/Ace-Combat-X-Recompilation	Ace Combat X: Skies of Deception	psp	none	windows
+https://github.com/guimaraf/3sxw	Street Fighter III: 3rd Strike	ps2	none	linux,macos,windows
+https://github.com/linkzenic/2ship2harkinian-Android	The Legend of Zelda: Majora's Mask	n64	none	android
+https://github.com/sal063/Ace-Combat-3-static-recompilation	Ace Combat 3: Electrosphere	ps1	none	windows
+https://github.com/sal063/Ace-Combat-5-Static-recompilation	Ace Combat 5: The Unsung War	ps2	none	windows
+https://github.com/crowded-street/3sx	Street Fighter III: 3rd Strike	ps2	none	linux,macos,windows
+https://github.com/DerrickGold/ar-recomp	ActRaiser	snes	generated	linux,macos,windows
+https://github.com/alondero/aerogauge-recomp	AeroGauge	n64	assisted	android,linux,windows
+https://github.com/petarov/alleycat.exe	Alley Cat	pc	generated	windows,macos,linux
+https://github.com/Junior-Jones/Adventure-Island-II-NES-Static-Recomp	Adventure Island II	nes	none	windows
+https://github.com/elasota/Aerofoil	Glider PRO	pc	none	android,windows
+https://github.com/sal063/AC6_recomp	Ace Combat 6: Fires of Liberation	x360	none	windows
+https://github.com/alexbeavs-ps1-ports/alien-resurrection-recomp	Alien Resurrection	ps1	generated	linux,macos,windows
+https://github.com/alexbeavs-ps1-ports/alundra-recomp	Alundra	ps1	generated	linux,macos,windows
+https://github.com/mstan/ApeEscapeRecomp	Ape Escape	ps1	generated	linux,windows
+https://github.com/alondero/automobililamborghini-recomp	Automobili Lamborghini	n64	assisted	android,linux,windows
+https://github.com/flyngmt/ACGC-PC-Port	Animal Crossing	gcn	assisted	windows
+https://github.com/Keriew/augustus	Caesar III	pc	none	android,linux,macos,windows
+https://github.com/alexbeavs-ps1-ports/apocalypse-recomp	Apocalypse	ps1	generated	linux,macos,windows
+https://github.com/alexbeavs-ps1-ports/alone-in-the-dark-the-new-nightmare-recomp	Alone in the Dark: The New Nightmare	ps1	generated	linux,macos,windows
+https://github.com/iron-jay/banjo_tooie_xbla_recomp	Banjo-Tooie (XBLA)	x360	generated	windows
+https://github.com/Vidanox/BanjoTooieRecompiled	Banjo-Tooie	n64	assisted	linux,windows
+https://github.com/AurelioB/BanjoRecomp-Android	Banjo-Kazooie	n64	none	android
+https://github.com/JRickey/BattleShip	Super Smash Bros.	n64	assisted	android,windows,linux,macos
+https://github.com/omegakatana92/Battle-Arena-Toshinden-GB-Recomp	Battle Arena Toshinden (Game Boy)	gb	none	windows
+https://github.com/BanjoRecomp/BanjoRecomp	Banjo-Kazooie	n64	none	linux,macos,windows
+https://github.com/mstan/BattleArenaToshindenRecomp	Battle Arena Toshinden	ps1	assisted	windows,linux
+https://github.com/TheGh0stShip/BattleTanx-Global-Assault-PC-Port	BattleTanx: Global Assault	n64	none	windows
+https://github.com/Awakenchan/BloodBorneButPc	Bloodborne	ps4	none	windows
+https://github.com/Supermedo/bloodborne_pc	Bloodborne	ps4	assisted	windows
+https://github.com/deadinside28/bloodborne_pc	Bloodborne	ps4	generated	linux
+https://github.com/danielgomesvieira2000/beetle-adventure-racing-recomp	Beetle Adventure Racing!	n64	generated	windows
+https://github.com/djultra64/Blocksphere	Tetrisphere	n64	generated	linux,windows
+https://github.com/Mrsuss60/bloodborne_pc_windows_port	Bloodborne	ps4	generated	windows
+https://github.com/chrissotraidis/bluewake	The Legend of Zelda: The Wind Waker	gcn	assisted	windows,ios
+https://github.com/GABRIELNNK/Bigodao	Wario Land: Super Mario Land 3	gb	generated	windows,linux
+https://github.com/NoahVl/Birdman64	Pilotwings 64	n64	generated	linux,windows
+https://github.com/novapowers0/BloodyRoar2Recomp	Bloody Roar II	ps1	none	linux
+https://github.com/RevoSucks/BM64Recomp	Bomberman 64	n64	none	linux,macos,windows
+https://github.com/TechnicallyComputers/Bomberman-Fantasy-Race-Recomp	Bomberman Fantasy Race	ps1	assisted	linux,macos,windows
+https://github.com/RevoSucks/BMHeroRecomp	Bomberman Hero	n64	none	linux,macos,windows
+https://github.com/TechnicallyComputers/Bomberman-World-Recomp	Bomberman World	ps1	assisted	linux,macos,windows
+https://github.com/Blizz127/brave-fencer-musashi-decomp-port	Brave Fencer Musashi	ps1	generated	linux,windows
+https://github.com/novapowers0/DBZ-Budokai-3-HD-Collection	Dragon Ball Z: Budokai 3 HD	x360	assisted	linux,windows
+https://github.com/Heromachine/Breakdown-Recompilation	Breakdown	og xbox	assisted	windows
+https://github.com/wootbeer/btgarecomp	BattleTanx: Global Assault	n64	generated	linux,windows
+https://github.com/bibendovsky/bstone	Blake Stone: Aliens of Gold	pc	none	macos,linux,windows
+https://github.com/elliotttate/BombermanRecomp	Super Bomberman	snes	none	windows
+https://github.com/TechnicallyComputers/BombermanPartyEditionRecomp	Bomberman Party Edition	ps1	assisted	linux,macos,windows
+https://github.com/danielgomesvieira2000/burnout3-pc	Burnout 3: Takedown	ps2	generated	windows
+https://github.com/Endprodukt/cannonball-dx	OutRun	arcade	assisted	windows
+https://github.com/wootbeer/bzrecomp	Battlezone: Rise of the Black Dogs	n64	generated	linux,windows
+https://github.com/Spicywonda/castlevania-chronicles-recomp	Castlevania Chronicles	ps1	none	windows,macos,linux
+https://github.com/fliperama86/cvlod_recomp	Castlevania: Legacy of Darkness	n64	assisted	linux,macos,windows
+https://github.com/Rainchus/ChameleonTwist1-JP-Recomp	Chameleon Twist	n64	none	windows
+https://github.com/YuutaTsubasa/ChaotixRecompiled	Knuckles' Chaotix	32x	generated	android,windows
+https://github.com/djultra64/ClayFighter64	ClayFighter 63⅓	n64	generated	linux,windows
+https://github.com/sciaschi/CBFD-Recompiled	Conker's Bad Fur Day	n64	generated	linux,macos,windows
+https://github.com/CorsixTH/CorsixTH	Theme Hospital	pc	assisted	macos,windows,linux
+https://github.com/alexbeavs-ps1-ports/crash-bandicoot-3-warped-recomp	Crash Bandicoot 3: Warped	ps1	generated	linux,macos,windows
+https://github.com/psxrestore/Condemned2Recomp	Condemned 2: Bloodshot	x360	none	windows
+https://github.com/Zumbo06/Crash2Recomp	Crash Bandicoot 2: Cortex Strikes Back	ps1	none	windows
+https://github.com/DahSidiAbdallah/ConkerBFDReloaded	Conker's Bad Fur Day	n64	assisted	linux,windows
+https://github.com/CTR-tools/ctr-native	Crash Team Racing	ps1	none	linux,windows
+https://github.com/Simon358/ctr-native-android	Crash Team Racing	ps1	none	android
+https://github.com/Interkarma/daggerfall-unity	The Elder Scrolls II: Daggerfall	pc	none	linux,macos,windows
+https://github.com/lodilorenzo/cybermage-darklight-re-awakening	CyberMage: Darklight Awakening	pc	generated	windows
+https://github.com/florinp93/hells-gate-recomp	Dante's Inferno	x360	assisted	windows
+https://github.com/wivi514/Dead_Rising_2_Case_West_Xenon_Recomp	Dead Rising 2: Case West	x360	generated	linux,windows,macos
+https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp	Dead Rising 2: Case Zero	x360	generated	linux,windows,macos
+https://github.com/dethrace-labs/dethrace	Carmageddon	pc	none	macos,linux,windows
+https://github.com/alexbeavs-ps1-ports/diablo-recomp	Diablo	ps1	generated	linux,macos,windows
+https://github.com/yell0wsuit/cuttherope-dx	Cut the Rope	mobile	none	macos,windows,linux
+https://github.com/TekRantGaming/digdug-native	Dig Dug	arcade	generated	linux,windows
+https://github.com/NeverCookFirst/DimensionsRecomp	LEGO Dimensions	x360	generated	windows
+https://gitlab.com/ethan4love/psx-recomp-port	Digimon World	ps1	generated	windows
+https://github.com/alexbeavs-ps1-ports/dino-crisis-2-recomp	Dino Crisis 2	ps1	generated	linux,macos,windows
+https://github.com/alexbeavs-ps1-ports/dino-crisis-recomp	Dino Crisis	ps1	generated	linux,macos,windows
+https://github.com/DinosaurPlanetRecomp/dino-recomp	Dinosaur Planet	n64	none	linux,windows
+https://github.com/wootbeer/dinotale	Yoshi's Story	n64	generated	linux,windows
+https://github.com/elliotttate/DKC2Recomp	Donkey Kong Country 2: Diddy's Kong Quest	snes	assisted	macos,windows
+https://github.com/elliotttate/DKC1Recomp	Donkey Kong Country	snes	assisted	macos,windows
+https://github.com/elliotttate/DKC3Recomp	Donkey Kong Country 3: Dixie Kong's Double Trouble!	snes	assisted	macos,windows
+https://github.com/ThatGuyMcd/DKR-R	Diddy Kong Racing	n64	assisted	linux,windows,macos,android,ios
+https://github.com/NoRain211/doaxvb-re	Dead or Alive: Xtreme Beach Volleyball	og xbox	assisted	windows,macos,linux
+https://github.com/Erick194/DoomIIRPG-RE	Doom II RPG	mobile	none	windows
+https://github.com/Erick194/DoomRPG-RE	Doom RPG	mobile	none	windows
+https://github.com/Styd051/DOOM64-EX-Plus-Enhanced	Doom 64	n64	none	windows
+https://github.com/Rainchus/Donkey-Kong-64-Recompiled	Donkey Kong 64	n64	none	linux,macos,windows
+https://github.com/citrongames/Dora64	Doraemon: Nobita to Mittsu no Seireiseki	n64	assisted	linux,windows,android
+https://github.com/doukutsu-rs/doukutsu-rs	Cave Story	pc	none	android,linux,macos,windows
+https://github.com/theboy181/drmario64_recomp_plus	Dr. Mario 64	n64	none	windows
+https://github.com/LittleBitUA/DownpourRecomp	Silent Hill: Downpour	x360	generated	windows
+https://github.com/LittleBitUA/DPRecomp	Deadly Premonition	x360	generated	windows
+https://github.com/mstan/DragonBallZLegacyofGokuIIRecomp	Dragon Ball Z: The Legacy of Goku II	gba	assisted	windows
+https://github.com/mstan/DragonBallZBuusFuryRecomp	Dragon Ball Z: Buu's Fury	gba	generated	windows
+https://github.com/iExplosiveRage/DBZ-Burst-Limit-Recompiled	Dragon Ball Z: Burst Limit	x360	generated	linux,windows
+https://github.com/WistfulHopes/DBZ1	Dragon Ball Z: Budokai HD	x360	none	windows
+https://github.com/mstan/DrMarioNesRecomp	Dr. Mario	nes	generated	macos,windows,linux
+https://github.com/TwilitRealm/dusklight	The Legend of Zelda: Twilight Princess	gcn	none	android,linux,macos,windows
+https://gitlab.com/sonicdcer/DNZHRecomp	Duke Nukem: Zero Hour	n64	none	linux,macos,windows
+https://github.com/rages4calm/earthbound-companion	EarthBound	snes	generated	windows,macos,linux
+https://github.com/soyjxck/dod3-recomp	Drakengard 3	ps3	generated	macos,windows
+https://github.com/elprogramadorloco-arch/jim2-recomp	Earthworm Jim 2	ps1	assisted	windows
+https://github.com/TekRantGaming/earthworm-jim-hd-recompiled	Earthworm Jim HD	x360	generated	linux,windows
+https://github.com/goliathret/EdgeOfTimeRecomp	Spider-Man: Edge of Time	x360	none	macos,windows,linux
+https://github.com/strider973/Einhander-Recompiled	Einhänder	ps1	generated	linux,macos,windows
+https://github.com/mstan/EmeraldRecomp	Pokémon Emerald	gba	generated	linux,windows
+https://github.com/FluffyQuack/ReXGlue-EXIT	Exit / Exit 2	x360	none	windows
+https://github.com/birabittoh/EternalSonataReprise	Eternal Sonata	x360	none	android,linux,macos,windows
+https://gitlab.com/sonicdcer/ExtremeGRecomp	Extreme-G	n64	none	windows,macos,linux
+https://github.com/james2doyle/ffta-recomp	Final Fantasy Tactics Advance	gba	assisted	windows,linux,android
+https://github.com/JonathanDC64/FFCCEOT-Recomp	Final Fantasy Crystal Chronicles: Echoes of Time	nds	generated	windows,linux
+https://github.com/alexbeavs-ps1-ports/final-fantasy-viii-recomp	Final Fantasy VIII	ps1	generated	windows,macos,linux
+https://github.com/mstan/FireRedLeafGreenRecomp	Pokémon FireRed / LeafGreen	gba	generated	windows
+https://github.com/NJH-1001/FinFanTacRecomp	Final Fantasy Tactics	ps1	assisted	linux,macos,windows
+https://github.com/himdo/Fable-2-Recomp	Fable II	x360	assisted	windows
+https://github.com/alexbeavs-ps1-ports/final-fantasy-ix-recomp	Final Fantasy IX	ps1	generated	windows,macos,linux
+https://github.com/craigshaw/FZeroRecomp	F-Zero	snes	generated	macos,windows
+https://github.com/YuutaTsubasa/Free-Riders-Recompiled	Sonic Free Riders	x360	generated	android,linux,windows
+https://github.com/bryanthaboi/gen1recomp	Pokémon (gerações 1 a 3)	gb	assisted	android,linux,macos,windows,ios
+https://github.com/Zorkats/G-Diffuser	F-Zero X	n64	assisted	linux,windows
+https://github.com/saulob/geometry-wars-retro-evolved-2-recompiled	Geometry Wars: Retro Evolved 2	x360	generated	linux,windows
+https://github.com/OverkillLabs3/gears-judgement-recomp	Gears of War: Judgment	x360	assisted	windows
+https://github.com/mstan/FZeroSNESRecomp	F-Zero	snes	generated	windows,linux
+https://github.com/ronniecloud/re-wor	Guitar Hero: Warriors of Rock	x360	none	windows
+https://github.com/klorfmorf/Goemon64Recomp	Mystical Ninja Starring Goemon	n64	none	linux,macos,windows
+https://github.com/SunJaycy/GoldenEye-Recomp	GoldenEye 007 (XBLA)	x360	assisted	windows
+https://github.com/HarbourMasters/Ghostship	Super Mario 64	n64	none	android,linux,macos,windows
+https://github.com/akratch/goldenballoon	Diddy Kong Racing	n64	assisted	linux,macos,windows
+https://github.com/ogdanimal/Goemon64Recomp-Android	Mystical Ninja Starring Goemon	n64	generated	android
+https://github.com/ThatGuyMcd/Glover-R	Glover	n64	assisted	linux,windows
+https://github.com/jkdansereau/goldeneye-pc-port	GoldenEye 007	n64	generated	linux,windows
+https://github.com/m-x-d/Heretic2R	Heretic II	pc	none	windows
+https://github.com/saulob/hard-corps-uprising-recompiled	Hard Corps: Uprising	x360	generated	windows
+https://github.com/ZDoom/gzdoom	Doom	pc	none	macos,windows,linux
+https://github.com/obaidr1/hercules-recompiled	Disney's Hercules	ps1	generated	linux,windows
+https://github.com/HarvestMoon64Recomp/HarvestMoon64Recomp	Harvest Moon 64	n64	none	linux,macos,windows
+https://github.com/goodshepherd23/Hellnight-Recompiled	Hellnight	ps1	assisted	linux,macos,windows
+https://github.com/FelipePrado0/gow3_pc	God of War III Remastered	ps4	none	windows,linux
+https://github.com/sonsegajp/HWDER	Hyrule Warriors: Definitive Edition	switch	generated	windows
+https://github.com/distilledorion-sketch/Initial-D-Arcade-Stage-3-Native-SH-4-Recompilation-WIP-	Initial D Arcade Stage 3	arcade	none	windows
+https://github.com/riseio/TWIPE_00Sheven	The World Is Not Enough	n64	assisted	linux,windows
+https://github.com/Brawmario/infinite-mario-64-ever	Super Mario 64	n64	none	linux,macos,windows
+https://github.com/doc-haz/infinite-undiscovery-recomp	Infinite Undiscovery	x360	assisted	windows
+https://github.com/TK22-26/JetForceGemini-Recomp	Jet Force Gemini	n64	assisted	windows
+https://github.com/isledecomp/isle-portable	LEGO Island	pc	assisted	linux,windows,ios,macos,android
+https://github.com/nathanialf/ico-pc	ICO	ps2	assisted	windows,linux,android,macos,ios
+https://github.com/bvschaik/julius	Caesar III	pc	none	android,linux,macos,windows
+https://github.com/goodshepherd23/JetMoto2-Recomp	Jet Moto 2	ps1	assisted	windows
+https://github.com/birabittoh/KameoRePowered	Kameo: Elements of Power	x360	assisted	linux,windows
+https://github.com/chrissotraidis/kartpad	Mario Kart Wii	wii	assisted	macos,android,ios
+https://github.com/TekRantGaming/king-kong-recompiled	Peter Jackson's King Kong	x360	generated	windows
+https://github.com/ExpansionPak/ModernGekko	Kirby's Return to Dream Land	wii	none	linux,windows
+https://github.com/dkfans/keeperfx	Dungeon Keeper	pc	none	windows
+https://github.com/wootbeer/jillandroid	Jill of the Jungle	pc	generated	android
+https://github.com/Y0oshi/lain-psx-decompiled	Serial Experiments Lain	ps1	none	linux,macos,windows
+https://github.com/TechnicallyComputers/Klonoa-Door-to-Phantomile	Klonoa: Door to Phantomile	ps1	assisted	linux,macos,windows
+https://github.com/peiikai/LASRecomp	The Legend of Zelda: Link's Awakening	switch	generated
+https://gitlab.com/bighead.0/ladxhd_updated	The Legend of Zelda: Link's Awakening DX	gbc	none	windows,macos,linux
+https://github.com/SamSteProjects/legend-of-legaia-recomp	Legend of Legaia	ps1	assisted	windows
+https://github.com/elmasas/lcs-recomp	Grand Theft Auto: Liberty City Stories	psp	none	windows
+https://github.com/retroreplay82/Legendary-Wings-NES-to-PC	Legendary Wings	nes	assisted	windows
+https://github.com/mstan/LegendOfZeldaNESRecomp	The Legend of Zelda	nes	generated	windows
+https://github.com/HarbourMasters/Lighthouse	Banjo-Kazooie	n64	none	linux,macos,windows
+https://github.com/omegakatana92/Kirby-Pinball-Land-Recomp	Kirby's Pinball Land	gb	none	windows
+https://github.com/izzy2lost/Lighthouse	Banjo-Kazooie	n64	none	android
+https://github.com/patchzyy/Wiicompiled	Mario Kart Wii	wii	assisted	linux,windows,macos
+https://github.com/freefrank/LostOdysseyRecomp	Lost Odyssey	x360	assisted	linux,windows,macos,android
+https://github.com/mstan/MarioKartSuperCircuitRecomp	Mario Kart: Super Circuit	gba	generated	linux,windows
+https://github.com/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp	Marvel vs. Capcom: Clash of Super Heroes	ps1	assisted	linux,macos,windows
+https://github.com/iirg4x/mp6-native-port	Mario Party 6	gcn	none	android,windows
+https://github.com/TechnicallyComputers/MastersOfTerasKasiRecomp	Star Wars: Masters of Teräs Käsi	ps1	assisted	linux,macos,windows
+https://gitlab.com/sonicdcer/MarioKart64Recomp	Mario Kart 64	n64	none	linux,windows,macos
+https://github.com/mstan/MarioTennisVirtualBoyRecomp	Mario's Tennis	vb	generated	windows
+https://github.com/BlackLabelHQ/MediEvilRecomp	MediEvil	ps1	none	linux,macos,windows
+https://github.com/alariq/mc2	MechCommander 2	pc	none	windows
+https://github.com/mstan/MegaManX4Recomp	Mega Man X4	ps1	generated	linux,windows
+https://github.com/mstan/MegaManZeroRecomp	Mega Man Zero	gba	generated	windows
+https://github.com/mstan/MegaManX5Recomp	Mega Man X5	ps1	generated	linux,windows
+https://github.com/mstan/MegaManX2Recomp	Mega Man X2	snes	generated	windows
+https://github.com/mstan/MegaManX6Recomp	Mega Man X6	ps1	generated	linux,windows
+https://github.com/Hero88go/melee-unlocked	Super Smash Bros. Melee	gcn	generated	windows
+https://github.com/MegaMan64Recomp/MegaMan64Recompiled	Mega Man 64	n64	none	linux,macos,windows
+https://github.com/alexbeavs-ps1-ports/metal-gear-solid-recomp	Metal Gear Solid	ps1	generated	linux,macos,windows
+https://github.com/999sian/melee-pc	Super Smash Bros. Melee	gcn	assisted	windows,linux,macos,ios,android
+https://github.com/TechnicallyComputers/Metal-Slug-X-Recomp	Metal Slug X	ps1	assisted	linux,macos,windows
+https://github.com/KraftMacAndChee/Mercenaries-Recompiled	Mercenaries: Playground of Destruction	og xbox	assisted	windows
+https://github.com/Odrannnn/MetroidPrimePort	Metroid Prime	gcn	assisted	android,linux,windows,macos
+https://github.com/MorsGames/MoonChildFE	Moon Child	pc	none	linux,macos,windows
+https://github.com/mstan/MegaManXSNESRecomp	Mega Man X	snes	generated	linux,windows
+https://github.com/birabittoh/NocturneRecomp	Castlevania: Symphony of the Night (Xbox 360)	x360	generated	linux,windows
+https://github.com/mstan/MetroidPrimeHuntersRecomp	Metroid Prime Hunters	nds	generated	linux,windows
+https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port	Pikmin	gcn	generated	linux,windows,android
+https://github.com/lfarroco/ogre-battle-64-recomp	Ogre Battle 64: Person of Lordly Caliber	n64	assisted	linux,macos,windows
+https://github.com/OpenCommunityEdition/OpenCE	Halo: Combat Evolved	og xbox	assisted
+https://github.com/WitherBlitz/NSMB-Wii-Multiplayer-Recompilation	New Super Mario Bros. Wii	wii	generated	android,windows
+https://github.com/OpenApoc/OpenApoc	X-COM: Apocalypse	pc	none	windows
+https://github.com/C7-Game/OpenCiv3	Civilization III	pc	none	macos,windows,linux
+https://github.com/Mikompilation/MikuPan	Fatal Frame	ps2	none	linux,macos,windows
+https://github.com/OpenRCT2/OpenRCT2	RollerCoaster Tycoon 2	pc	none	macos,android,linux,windows
+https://github.com/AlisterT/openjazz	Jazz Jackrabbit	pc	none	windows,linux,android
+https://github.com/OpenLoco/OpenLoco	Chris Sawyer's Locomotion	pc	none	linux,macos,windows
+https://github.com/OpenRA/OpenRA	Command & Conquer / Red Alert / Dune 2000	pc	none	linux,windows,macos
+https://github.com/omf2097/openomf	One Must Fall 2097	pc	none	linux,macos,windows
+https://github.com/OpenSC2K/OpenSC2K	SimCity 2000	pc	assisted	linux,macos,windows
+https://github.com/GiZcesi/OpenTricky	SSX Tricky	og xbox	none	windows
+https://github.com/JGRennison/OpenTTD-patches	Transport Tycoon Deluxe	pc	none	linux,macos,windows
+https://github.com/TekRantGaming/outpost-kaloki-x-recompiled	Outpost Kaloki X	x360	generated	linux,windows
+https://github.com/kirby-letsgo/oracles-decomp	The Legend of Zelda: Oracle of Ages / Seasons	gbc	assisted	android,linux,macos,windows
+https://github.com/LoreanXavier/pt-pc	P.T.	ps4	assisted	linux,windows,macos
+https://github.com/HarbourMasters/PaperBoat	Paper Mario	n64	none	linux,macos,windows
+https://github.com/SMCGames/Paper-Mario-ReCut	Paper Mario	n64	assisted
+https://github.com/opentyrian/opentyrian	Tyrian	pc	none	linux,macos,windows
+https://github.com/andyvand/opentyrian2000	Tyrian 2000	pc	none	linux,android,ios,macos,windows
+https://github.com/kirby1237/PaRappaTheRapperRecomp	PaRappa the Rapper	ps1	generated	linux,windows
+https://github.com/Blizz127/parasite-eve-decomp-port	Parasite Eve	ps1	generated	linux
+https://github.com/zeranemesis/Marioparty4	Mario Party 4	gcn	generated	linux,macos,android,windows
+https://github.com/beatrixzy/PGR4-Recomp	Project Gotham Racing 4	x360	none	windows
+https://github.com/DabDavis/perfect-dark-dabs-mod	Perfect Dark	n64	generated	macos,linux,windows
+https://github.com/TheRunaway5/Phase-Distorter	EarthBound	snes	none	linux,windows
+https://github.com/izzy2lost/perfect_dark	Perfect Dark	n64	none	android
+https://github.com/perfect-dark-pc-port/perfect_dark	Perfect Dark	n64	none	linux,macos,windows
+https://github.com/mariopartyrd/partyboard	Mario Party 4	gcn	none	android,windows
+https://github.com/InsanityBringer/PiccuEngine	Descent 3	pc	none	windows
+https://github.com/danielgomesvieira2000/pilotwings-64-recomp	Pilotwings 64	n64	generated	linux,windows
+https://github.com/arcanite24/pinyon-shift	Forza Horizon	x360	assisted	windows,linux,macos
+https://github.com/cybervisi0n/pokeplatinum	Pokémon Platinum	nds	none	linux,windows
+https://github.com/guimaraf/plusalpha-recomp	Street Fighter EX Plus Alpha	ps1	none	linux,windows
+https://github.com/djultra64/Power-Dozer	Blast Corps	n64	generated	linux,windows
+https://github.com/TekRantGaming/point-blank-recompiled	Point Blank	ps1	generated	windows
+https://github.com/theclub654/ProjectCane	Sly Cooper and the Thievius Raccoonus	ps2	assisted
+https://github.com/theokyr/Project8Recomp	Tony Hawk's Project 8	x360	assisted	linux,macos,windows
+https://github.com/999sian/tmc	The Legend of Zelda: The Minish Cap	gba	assisted	windows,macos,linux,android
+https://github.com/kumapauz/project-reignition	Sonic and the Secret Rings	wii	none	linux,windows
+https://github.com/BodbDearg/PsyDoom	Doom (PlayStation)	ps1	none	linux,macos,windows
+https://github.com/Rainchus/Quest64-Recomp	Quest 64	n64	none	windows
+https://github.com/AliveTeam/alive_reversing	Oddworld: Abe's Oddysee / Abe's Exoddus	pc	none	linux,macos,windows
+https://github.com/samioan/rac-j2me-remastered	Ratchet & Clank: Clone Home	mobile	generated	windows
+https://github.com/TechnicallyComputers/Rampage---Through-Time-Recomp	Rampage Through Time	ps1	assisted	linux,macos,windows
+https://github.com/DomazinUS/RaceWave46	Wave Race 64	n64	assisted	windows
+https://github.com/zolaware/reblue	Blue Dragon	x360	none	linux,windows,macos
+https://github.com/SilverwireGames/ReChan	Jackie Chan Stuntmaster	ps1	none	linux,windows
+https://github.com/masterspike52/redahm	Destroy All Humans! Path of the Furon	x360	none	windows
+https://github.com/khasinski/rage-racer-pc	Rage Racer	ps1	assisted	linux,macos,windows
+https://github.com/OpenDriver2/REDRIVER2	Driver 2	ps1	none	linux,windows
+https://github.com/alexbeavs-ps1-ports/resident-evil-3-recomp	Resident Evil 3: Nemesis	ps1	generated	linux,macos,windows
+https://github.com/masterspike52/reNut	Banjo-Kazooie: Nuts & Bolts	x360	none	windows
+https://github.com/drizztdourden08/relic-of-the-past	The Legend of Zelda: A Link to the Past	snes	assisted	linux,windows,macos,android
+https://github.com/MaxDeadBear/NaughtyBear_ReStuff	Naughty Bear Gold Edition	x360	none	linux,windows
+https://github.com/sergiomanzur/regaiden-recomp	Resident Evil Gaiden	gbc	assisted	android,windows
+https://github.com/RSDKModding/RSDKv3-Decompilation	Sonic CD (2011)	mobile	none	android,linux,macos,windows
+https://github.com/mstan/RubySapphireRecomp	Pokémon Ruby / Sapphire	gba	generated	windows
+https://github.com/linkssy2/RoadRash64Recompiled	Road Rash 64	n64	generated	linux,windows
+https://github.com/lethal-guitar/RigelEngine	Duke Nukem II	pc	none	linux,macos,windows
+https://github.com/ThatGuyMcd/Rocket-R	Rocket: Robot on Wheels	n64	assisted	android,linux,windows
+https://github.com/jackpoison-prog/RingOut	Soulcalibur II	gcn	generated	linux,windows
+https://github.com/amazingalek/rush-2049-recomp	San Francisco Rush 2049	n64	generated	windows
+https://github.com/TGP482/SCDA-XBERecomp	Tom Clancy's Splinter Cell: Double Agent	og xbox	none	windows
+https://github.com/fragglet/sdl-sopwith	Sopwith	pc	none	macos,windows
+https://github.com/m1ndcrap/Sega-Superstars-Tennis-ReMatch	Sega Superstars Tennis	x360	none	windows
+https://github.com/eandis/SDOJ-Recomp	DoDonPachi SaiDaiOuJou	x360	none	linux,windows
+https://github.com/Legend-of-Dragoon-Modding/Severed-Chains	The Legend of Dragoon	ps1	none	windows,linux,macos
+https://github.com/sdlpal/sdlpal	The Legend of Sword and Fairy	pc	none	linux,macos,ios,windows,android
+https://github.com/NJH-1001/SexyParoRecomp	Sexy Parodius	ps1	generated	linux,macos,windows
+https://github.com/AjncSystem/ShadowOfTheColossus-PC	Shadow of the Colossus (PS4)	ps4	generated	windows
+https://github.com/GTTeancum/SotE-Recomp	Star Wars: Shadows of the Empire	n64	assisted	windows
+https://github.com/BountyHunterKanden/SecondHunt	Metroid Prime Hunters	nds	generated	windows,android
+https://github.com/SDW-Community/Sheep-Dog-n-Wolf-Rewooled	Sheep, Dog 'n' Wolf	pc	generated	linux,macos,windows
+https://github.com/vibecodekun/shantaerecomp	Shantae	gbc	generated	linux,windows
+https://github.com/SlickAmogus/silent-hill-decomp	Silent Hill	ps1	generated	android,linux,macos,windows
+https://github.com/HarbourMasters/Shipwright	The Legend of Zelda: Ocarina of Time	n64	assisted	linux,macos,windows
+https://github.com/TekRantGaming/simpsons-wrestling-recompiled	The Simpsons Wrestling	ps1	generated	linux,windows
+https://github.com/mchughalex/skate3recomp	Skate 3	x360	none	linux,macos,windows
+https://github.com/cookingwithsimon/Skate2Recompiled	Skate 2	x360	generated	windows
+https://github.com/Edwin2929/sma3-recomp-android.	Yoshi's Island: Super Mario Advance 3	gba	assisted	android
+https://github.com/cookingwithsimon/Skate1Recompiled	Skate	x360	generated	windows
+https://github.com/JackandBeans/Snap64Recomp	Pokémon Snap	n64	generated	linux,windows
+https://github.com/snesrev/smw	Super Mario World	snes	none	windows
+https://github.com/cdlewis/snowboardkids2-recomp	Snowboard Kids 2	n64	none	linux,macos,windows
+https://github.com/ElspethThePict/S1Forever	Sonic the Hedgehog (2013)	mobile	none	android,windows
+https://github.com/Eukaryot/sonic3air	Sonic 3 & Knuckles	gen	none	android,macos
+https://github.com/cdlewis/snowboardkids-recomp	Snowboard Kids	n64	assisted	linux,macos,windows
+https://github.com/ZinexDa/sonic-r-android	Sonic R	saturn	assisted	android
+https://github.com/mstan/SonicTheHedgehog2Recomp	Sonic the Hedgehog 2	gen	generated	windows
+https://github.com/sonicfreak1337/SARecomp	Sonic Adventure	dreamcast	assisted	linux,windows
+https://github.com/OverkillLabs3/SoS-PS5	God of War: Sons of Sparta	ps5	assisted	windows
+https://github.com/Capridog/SpaceRanger	Toy Story 2: Buzz Lightyear to the Rescue!	n64	generated	windows
+https://github.com/HarbourMasters/SpaghettiKart	Mario Kart 64	n64	assisted	linux,macos,windows
+https://github.com/izzy2lost/SpaghettiKart	Mario Kart 64	n64	assisted	android
+https://github.com/Cellenseres/SSSV_Recomp	Space Station Silicon Valley	n64	none	linux,macos,windows
+https://github.com/kandowontu2/starfox-enhanced	Star Fox	snes	generated	android,ios,linux,macos,windows
+https://gitlab.com/sonicdcer/Starfox64Recomp	Star Fox 64	n64	none	linux,macos,windows
+https://github.com/mstan/PokemonStadiumRecomp	Pokémon Stadium	n64	generated	windows
+https://github.com/HarbourMasters/Starship	Star Fox 64	n64	none	linux,windows
+https://github.com/TechnicallyComputers/Star-wars---Episode-I---Jedi-Power-Battles-Recomp	Star Wars Episode I: Jedi Power Battles	ps1	assisted	windows,macos,linux
+https://github.com/izzy2lost/Starship	Star Fox 64	n64	none	android
+https://github.com/luisxl15/Strikers-Android-Port	Super Mario Strikers	gcn	none	android
+https://github.com/strider973/STRIDER-2-Recompiled	Strider 2	ps1	assisted	linux,macos,windows
+https://github.com/strider973/Street-Fighter-EX2-Plus-Recompiled	Street Fighter EX2 Plus	ps1	assisted	linux,macos,windows
+https://github.com/TechnicallyComputers/Street-Fighter-Alpha-3-Recomp	Street Fighter Alpha 3	ps1	assisted	linux,macos,windows
+https://github.com/new-coke/strikers	Super Mario Strikers	gcn	none	linux,macos,windows
+https://github.com/alexbeavs-ps1-ports/suikoden-ii-recomp	Suikoden II	ps1	generated	linux,macos,windows
+https://github.com/mr-finster/stunts-hd	Stunts	pc	assisted	linux,macos,windows
+https://github.com/coop-deluxe/sm64coopdx	Super Mario 64	n64	none	linux,macos,windows
+https://github.com/JHDev2006/Super-Mario-World-Remastered-Public	Super Mario World	snes	none	linux,windows
+https://github.com/JHDev2006/Super-Mario-Bros.-Remastered-Public	Super Mario Bros.	nes	none	linux,windows
+https://github.com/alexbeavs-ps1-ports/suikoden-recomp	Suikoden	ps1	generated	linux,macos,windows
+https://github.com/omegakatana92/Super-Mario-Land-3-Wario-Land-Recomp-	Wario Land: Super Mario Land 3	gb	none	windows
+https://github.com/mstan/SuperMarioAdvance4Recomp	Super Mario Advance 4: Super Mario Bros. 3	gba	generated	windows
+https://github.com/BTFighter/Super-Mario-World-Remastered-Plus	Super Mario World	snes	none	linux,macos,windows,android
+https://github.com/mstan/SuperMarioRPGRecomp	Super Mario RPG	snes	generated	linux,windows
+https://github.com/mstan/SuperMarioAdvance2Recomp	Super Mario World: Super Mario Advance 2	gba	assisted	windows
+https://github.com/mstan/SuperMarioWorldRecomp	Super Mario World	snes	generated	linux,windows
+https://github.com/HollywoodAkeem/SVR07-Recomp	WWE SmackDown vs. Raw 2007	x360	none	windows
+https://github.com/mstan/SuperMetroidRecomp	Super Metroid	snes	generated	windows
+https://github.com/jedijosh920/SWROTS-PC	Star Wars: Episode III – Revenge of the Sith	og xbox	none	windows
+https://github.com/BlackLabelHQ/SymphonyRecomp	Castlevania: Symphony of the Night	ps1	none	linux,macos,windows
+https://github.com/alexbeavs-ps1-ports/syphon-filter-2-recomp	Syphon Filter 2	ps1	generated	linux,macos,windows
+https://github.com/mechakotik/tails-adventure	Tails Adventure	gg	none	android,linux,windows
+https://github.com/Madxbio97/SF-pc-port	Syphon Filter	ps1	none	windows
+https://github.com/fabioap-cpu/Tekken3Recomp	Tekken 3	ps1	assisted	windows
+https://github.com/Heromachine/Tenchu-SA-Recomp	Tenchu: Stealth Assassins	ps1	assisted	linux
+https://github.com/z3xox/Tenkaichi3Decomp	Dragon Ball Z: Budokai Tenkaichi 3	ps2	assisted	linux,windows
+https://github.com/thibautbus/top	The Legend of Zelda: Oracle of Seasons / Ages	gbc	assisted	windows,macos,linux,android
+https://github.com/portingpete/The-Darkness-Recomp	The Darkness	x360	assisted	windows
+https://github.com/YesterMester/TheSimpsonsGameRecomp	The Simpsons Game	x360	none	windows,linux
+https://github.com/mstan/Tomba2Recomp	Tomba! 2: The Evil Swine Return	ps1	generated	linux,windows
+https://github.com/GreenNaugahyde/ZeldaWWHDRecompAndroid	The Legend of Zelda: The Wind Waker HD	wiiu	generated	android
+https://github.com/mstan/TombaRecomp	Tomba!	ps1	generated	linux,windows
+https://github.com/LANCommander/TonyWasAProSkater	Tony Hawk's Pro Skater	ps1	generated	linux,windows
+https://github.com/ThiagoLira/trouble-makers-pc-recomp	Mischief Makers	n64	assisted	linux,windows
+https://github.com/LostArtefacts/TRX	Tomb Raider I-III	pc	none	windows,linux,macos
+https://github.com/coccofresco/TriAevum	The Legend of Zelda: Ocarina of Time 3D	3ds	assisted	linux,windows
+https://github.com/TechnicallyComputers/TwistedMetal4Recomp	Twisted Metal 4	ps1	assisted	linux,macos,windows
+https://github.com/paulogaab21/ufc3recomp	UFC Undisputed 3	x360	none	windows
+https://github.com/hedge-dev/UnleashedRecomp	Sonic Unleashed	x360	none	linux,windows
+https://github.com/kandowontu2/UrbanRecomp	SimCity	snes	assisted	android,ios,linux,macos,windows
+https://github.com/vcmi/vcmi	Heroes of Might and Magic III	pc	assisted	android,linux,macos,windows
+https://github.com/Ed1z19/ValkyrieRecomp	Valkyrie Profile	ps1	assisted	linux,macos,windows
+https://github.com/Voicedrew11/verdite2	King's Field	ps1	generated	windows,linux
+https://github.com/HalmyLyseas/VandalHearts-PcPort	Vandal Hearts	ps1	generated	linux,windows
+https://github.com/OverkillLabs3/vice-city-stories-recomp	Grand Theft Auto: Vice City Stories	psp	assisted	macos,windows
+https://github.com/UZDoom/UZDoom	Doom	pc	none	linux,macos,windows
+https://github.com/Voicedrew11/verdite3	King's Field II	ps1	generated	windows,linux
+https://github.com/mr-finster/vf2-recomp	Virtua Fighter 2	arcade	assisted	macos,windows,linux
+https://github.com/jessetbh/VPW64Recomp	Virtual Pro Wrestling 64	n64	none	windows
+https://github.com/SolarCookies/TiP-Recomp	Viva Piñata: Trouble in Paradise	x360	none	windows,linux
+https://github.com/jessetbh/VPW2Recomp	Virtual Pro Wrestling 2: Ōdō Keishō	n64	none	windows
+https://github.com/mr-finster/vf1-recomp	Virtua Fighter	arcade	assisted	macos,windows,linux
+https://github.com/Wargus/war1gus	Warcraft: Orcs & Humans	pc	none	windows
+https://github.com/Wargus/wargus	Warcraft II: Tides of Darkness	pc	none	windows
+https://github.com/mstan/WarioWareTwistedRecomp	WarioWare: Twisted!	gba	assisted	windows,android
+https://github.com/jessetbh/WCWvsNWOWorldTourRecomp	WCW vs. nWo World Tour	n64	none	windows
+https://github.com/jessetbh/WCWnWoRevengeRecomp	WCW/nWo Revenge	n64	none	windows
+https://github.com/elliotttate/wave-race-64-recomp	Wave Race 64	n64	generated	macos,windows
+https://github.com/Supermedo/wet-recomp	WET	x360	assisted	windows
+https://github.com/Nycolazs/WindWakerHD-Android-Plus	The Legend of Zelda: The Wind Waker HD	wiiu	generated	android
+https://github.com/NJH-1001/Wipeout2K97XL	Wipeout XL	ps1	generated	windows
+https://github.com/SSunnKing/ZeldaWWHDRecompAndroid---ENHANCED	The Legend of Zelda: The Wind Waker HD	wiiu	generated	android
+https://github.com/jjmhalew/WoodyRE	Woody Woodpecker: Escape from Buzz Buzzard Park	pc	generated	linux,android,windows
+https://github.com/PromethenDev/wwe13-recomp	WWE '13	x360	generated	windows
+https://github.com/Erick194/WolfensteinRPG-RE	Wolfenstein RPG	mobile	none	linux
+https://github.com/jessetbh/WWFNoMercyRecomp	WWF No Mercy	n64	none	windows
+https://github.com/KaikoClanworth1/wwe-svr2011-pc	WWE SmackDown vs. Raw 2011	x360	generated	android,windows
+https://github.com/jessetbh/WWFWrestleMania2000Recomp	WWF WrestleMania 2000	n64	none	windows
+https://github.com/TeamGDB/Yakumo	Monster Hunter Portable 3rd HD Ver.	psp	generated	android,linux,macos,windows
+https://github.com/Unchiga/Yu-Gi-Oh-Forbidden-Memories-Recompiled	Yu-Gi-Oh! Forbidden Memories	ps1	generated	linux,windows
+https://github.com/Blizz127/xenogears-decomp-port	Xenogears	ps1	generated	linux
+https://github.com/florinp93/xmd-recompiled	X-Men: Destiny	x360	assisted	windows
+https://github.com/GTTeancum/xmen-mutant-academy-2-pc	X-Men: Mutant Academy 2	ps1	generated
+https://github.com/xander-haj/Z3R	The Legend of Zelda: A Link to the Past	snes	none	linux,macos,windows
+https://github.com/troyedwardsjr/z2rs	Zelda II: The Adventure of Link	nes	assisted	macos,windows,linux,android
+https://github.com/Zelda64Recomp/Zelda64Recomp	The Legend of Zelda: Majora's Mask	n64	none	linux,macos,windows
+https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp	The Legend of Zelda: The Wind Waker HD	wiiu	generated	windows,macos,linux,android
+https://github.com/linkzenic/Zelda64Recomp-Android	The Legend of Zelda: Majora's Mask	n64	none	android
+https://github.com/mstan/ZeldaAlttPSNESRecomp	The Legend of Zelda: A Link to the Past	snes	generated	windows
+https://github.com/mstan/ZeroRacersVirtualBoyRecomp	Zero Racers	vb	generated	windows
+https://github.com/moshferatu/zombies-ate-my-neighbors-pc-port	Zombies Ate My Neighbors	snes	generated	windows

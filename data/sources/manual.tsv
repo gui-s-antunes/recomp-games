@@ -1,0 +1,76 @@
+# Achados em pesquisa manual (Wikipedia, tópicos do GitHub, Held Games, readonlymemo, notícias) em 2026-10-16.
+# Colunas: repositório	nome	jogo	plataforma original	tipo	uso de IA (none|assisted|generated|)	fonte
+https://github.com/mattseabrook/v64tng	v64tng	The 7th Guest	PC	reimpl		Wikipedia
+https://github.com/SFTtech/openage	openage	Age of Empires II	PC	reimpl		Wikipedia
+https://github.com/yaz0r/FITD	Free in the Dark	Alone in the Dark 1-3	PC	reimpl		Wikipedia
+https://github.com/Pyrdacor/Ambermoon.net	Ambermoon.net	Ambermoon	Amiga	reimpl		Wikipedia
+https://github.com/ArnoAnsems/CatacombGL	CatacombGL	Catacomb 3-D / Abyss / Armageddon / Apocalypse	PC (DOS)	reimpl		Wikipedia
+https://github.com/Panzerschrek/Chasm-Reverse	PanzerChasm	Chasm: The Rift	PC (DOS)	reimpl		Wikipedia
+https://github.com/TheAssemblyArmada/Vanilla-Conquer	Vanilla Conquer	Command & Conquer / Red Alert	PC	port		Wikipedia
+https://github.com/TheAssemblyArmada/Thyme	Thyme	Command & Conquer: Generals – Zero Hour	PC	reimpl		Wikipedia
+https://github.com/OpenSAGE/OpenSAGE	OpenSAGE	Command & Conquer: Generals	PC	reimpl		Wikipedia
+https://github.com/TheAssemblyArmada/Chronoshift	Chronoshift	Command & Conquer: Red Alert	PC	reimpl		Wikipedia
+https://github.com/openc2e/openc2e	openc2e	Creatures	PC	reimpl		Wikipedia
+https://github.com/afritz1/OpenTESArena	OpenTESArena	The Elder Scrolls: Arena	PC (DOS)	reimpl		Wikipedia
+https://github.com/alexbatalov/fallout1-ce	Fallout Community Edition	Fallout	PC	reimpl		Wikipedia
+https://github.com/alexbatalov/fallout2-ce	Fallout 2 Community Edition	Fallout 2	PC	reimpl		Wikipedia
+https://github.com/alexbatalov/fallout1-re	Fallout Reference Edition	Fallout	PC	decomp		Wikipedia
+https://github.com/alexbatalov/fallout2-re	Fallout 2 Reference Edition	Fallout 2	PC	decomp		Wikipedia
+https://github.com/falltergeist/falltergeist	Falltergeist	Fallout 2	PC	reimpl		Wikipedia
+https://github.com/Try/OpenGothic	OpenGothic	Gothic II	PC	reimpl		Wikipedia
+https://github.com/luciusDXL/TheForceEngine	The Force Engine	Star Wars: Dark Forces / Outlaws	PC (DOS)	reimpl		Wikipedia
+https://github.com/shinyquagsire23/OpenJKDF2	OpenJKDF2	Star Wars Jedi Knight: Dark Forces II	PC	reimpl		Wikipedia
+https://github.com/JACoders/OpenJK	OpenJK	Star Wars Jedi Knight II / Jedi Academy	PC	port		Wikipedia
+https://github.com/openmoh/openmohaa	OpenMoHAA	Medal of Honor: Allied Assault	PC	reimpl		Wikipedia
+https://github.com/OpenNFS/OpenNFS	OpenNFS	Need for Speed III: Hot Pursuit	PC	reimpl		Wikipedia
+https://github.com/zaps166/NFSIISE	NFSIISE	Need for Speed II SE	PC	port		Wikipedia
+https://github.com/djyt/cannonball	Cannonball	OutRun	Arcade	reimpl		Wikipedia
+https://github.com/dalerank/Akhenaten	Akhenaten	Pharaoh	PC	reimpl		Wikipedia
+https://github.com/Interrupt/systemshock	Shockolate	System Shock	PC (DOS)	port		Wikipedia
+https://github.com/OpenXRay/xray-16	OpenXRay	S.T.A.L.K.E.R.	PC	port		Wikipedia
+https://github.com/stohrendorf/CroftEngine	CroftEngine	Tomb Raider (1996)	PC	reimpl		Wikipedia
+https://github.com/Trxyebeep/TOMB5	TOMB5	Tomb Raider Chronicles	PC	decomp		Wikipedia
+https://github.com/dpjudas/SurrealEngine	Surreal Engine	Unreal / Unreal Tournament	PC	reimpl		Wikipedia
+https://github.com/exult/exult	Exult	Ultima VII	PC (DOS)	reimpl		Wikipedia
+https://github.com/riperiperi/Simitone	Simitone	The Sims	PC	reimpl		Wikipedia
+https://github.com/fabianschuiki/OpenSkyscraper	OpenSkyscraper	SimTower	PC	reimpl		Wikipedia
+https://github.com/Mewnojs/PlantsVsZombies.NET	PlantsVsZombies.NET	Plants vs. Zombies	PC	reimpl		Wikipedia
+https://github.com/snesrev/zelda3	zelda3	The Legend of Zelda: A Link to the Past	Super Nintendo	port		Wikipedia
+https://github.com/snesrev/sm	sm	Super Metroid	Super Nintendo	port		Wikipedia
+https://github.com/AlisterT/openjazz	OpenJazz	Jazz Jackrabbit	PC (DOS)	reimpl		Wikipedia
+https://github.com/igawa6/HarvestMoon64Recomp	Harvest Moon 64 (fork)	Harvest Moon 64	Nintendo 64	recomp		Busca
+https://github.com/mstan/psxrecomp	PSXRecomp	(ferramenta)	PlayStation	recomp	assisted	Held Games
+https://github.com/rexglue/rexglue-sdk	ReXGlue SDK	(ferramenta)	Xbox 360	recomp		Busca
+https://github.com/sp00nznet/ps3recomp	ps3recomp	(ferramenta)	PlayStation 3	recomp		Busca
+https://github.com/snailspeed3/mkw	mkw	Mario Kart Wii	Wii	decomp		Busca
+https://github.com/BlackLabelHQ/RecompOne	RecompOne	(ferramenta)	PlayStation	recomp		Tópico recompilation
+https://github.com/BlackLineInteractive/NWiiRecomp	NWiiRecomp	(ferramenta)	GameCube / Wii	recomp		Tópico recompilation
+https://github.com/aharonahdoot/RecompCore	RecompCore	(ferramenta)	GameCube	recomp		Tópico static-recompilation
+https://github.com/aharonahdoot/StrikersRecomp	StrikersRecomp	Super Mario Strikers	GameCube	recomp		Tópico static-recompilation
+https://github.com/bgyss/SwitchRecomp	SwitchRecomp	(ferramenta)	Nintendo Switch	recomp		Tópico static-recompilation
+https://github.com/Xenomega/NESgen	NESgen	(ferramenta)	NES	recomp		Tópico static-recompilation
+https://github.com/matiaszanolli/sega-vr-disasm	Virtua Racing recomp	Virtua Racing	Sega 32X	recomp		Tópico static-recompilation
+https://github.com/MikeSemicolonD/RogueSquadron64Recomp	RogueSquadron64Recomp	Star Wars: Rogue Squadron	Nintendo 64	recomp	assisted	Tópico n64recomp
+https://github.com/cyscott/dkr-recomp	dkr-recomp	Diddy Kong Racing	Nintendo 64	recomp		Tópico n64recomp
+https://github.com/Kirby64Ret/Kirby64Recomp	Kirby64Recomp	Kirby 64: The Crystal Shards	Nintendo 64	recomp		Tópico recompilation
+https://github.com/CMR2Decomp/CMR2Decomp	CMR2Decomp	Colin McRae Rally 2.0	PC	decomp		Tópico recompilation
+https://github.com/Decryptu/pokerecomp	pokerecomp	Pokémon Gold / Silver / Crystal	Game Boy Color	reimpl		Tópico recompilation
+https://github.com/spacefarergames/AloneInTheDarkReHaunted	Alone in the Dark: ReHaunted	Alone in the Dark	PC (DOS)	port		Tópico recompilation
+https://github.com/Xeeynamo/sotn-decomp	sotn-decomp	Castlevania: Symphony of the Night	PlayStation	decomp		Tópico decompilation
+https://github.com/pret/pokeruby	pokeruby	Pokémon Ruby / Sapphire	Game Boy Advance	decomp		Tópico decompilation
+https://github.com/pret/pokeheartgold	pokeheartgold	Pokémon HeartGold / SoulSilver	Nintendo DS	decomp		Tópico decompilation
+https://github.com/Vatuu/silent-hill-decomp	silent-hill-decomp	Silent Hill	PlayStation	decomp		Tópico decompilation
+https://github.com/GensokyoClub/th06	th06	Touhou 6: Embodiment of Scarlet Devil	PC	decomp		Tópico decompilation
+https://github.com/zeldaret/tmc	tmc	The Legend of Zelda: The Minish Cap	Game Boy Advance	decomp		Tópico pc-port
+https://github.com/faligame/lost-odyssey-hd-remaster	Lost Odyssey HD	Lost Odyssey	Xbox 360	recomp		Tópico pc-port
+https://github.com/invinceble55-wq/Estacado	Estacado	The Darkness	Xbox 360	recomp		Tópico pc-port
+https://github.com/GenryTheFox0/Project-2099	Project 2099	Spider-Man: Edge of Time	Xbox 360	recomp		Tópico pc-port
+https://github.com/OpenDriver2/REDRIVER2	REDRIVER2	Driver 2	PlayStation	port		Tópico decompilation
+https://github.com/jnmartin84/sf64-dc	sf64-dc	Star Fox 64	Nintendo 64	port		readonlymemo
+https://github.com/MorsGames/sm64plus	SM64Plus	Super Mario 64	Nintendo 64	port		readonlymemo
+https://github.com/SAT-R/sa1	sa1	Sonic Advance	Game Boy Advance	decomp		readonlymemo
+https://github.com/flashfire199/Armored-core-ReAnswered	ReAnswered	Armored Core: For Answer	Xbox 360	recomp		readonlymemo
+https://github.com/MaxDeadBear/Re-Cherry	Re-Cherry	Lollipop Chainsaw	Xbox 360	recomp		readonlymemo
+https://github.com/gcsmith/Pilotwings64Recomp	Pilotwings64Recomp	Pilotwings 64	Nintendo 64	recomp		readonlymemo
+https://github.com/mariopartyrd/marioparty4	marioparty4	Mario Party 4	GameCube	decomp		readonlymemo
+https://github.com/HarbourMasters/Ghostship	Ghostship	Super Mario 64	Nintendo 64	port		awesome-unofficial-pc-ports

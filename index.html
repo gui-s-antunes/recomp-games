@@ -3,213 +3,295 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Recomp Catálogo</title>
-<meta name="description" content="Catálogo de decompilações, recompilações, ports e reimplementações de jogos, atualizado diariamente.">
+<title>Jogos antigos, código novo</title>
+<meta name="description" content="Catálogo de decompilações, recompilações estáticas, ports e engines reimplementadas de jogos, atualizado diariamente.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
 <style>
+/* Tokens do design system "Código Novo" */
 :root{
-  --bg:#ECEEEA; --surface:#F7F8F5; --ink:#1C2433; --muted:#5B6474; --line:#CDD2CB;
-  --decomp:#2B6A8A; --recomp:#8A6A00; --port:#6A4C9C; --reimpl:#2E7A4C;
-  --ok:#2E7A4C; --slow:#8A6A00; --stop:#9A3B3B;
+  --substrate:#e8ebef; --surface:#f6f7f9; --ink:#141b2a; --graphite:#535d6e; --rule:#c3cad4; --rule-strong:#7d8796;
+  --decomp:#1f5fa8; --recomp:#9a5b00; --port:#8b2f7e; --reimpl:#1e7357; --focus:#1f5fa8; --on-ink:#f6f7f9;
+  --space-1:4px; --space-2:8px; --space-3:16px; --space-4:24px; --space-5:48px; --space-6:96px;
+  --radius-1:2px;
+  --font-sans:"Archivo","Helvetica Neue",Arial,sans-serif;
 }
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    --bg:#151A22; --surface:#1C222C; --ink:#E6E9EE; --muted:#9AA3B2; --line:#2E3644;
-    --decomp:#6FB3D6; --recomp:#E0B84A; --port:#B39AE6; --reimpl:#6CC48F;
-    --ok:#6CC48F; --slow:#E0B84A; --stop:#E28585;
-  }
-}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --substrate:#10161f; --surface:#172030; --ink:#e7ebf2; --graphite:#9aa5b8; --rule:#2a3546; --rule-strong:#66738c;
+  --decomp:#7db4f0; --recomp:#f0b45c; --port:#e39ad6; --reimpl:#6cd3a8; --focus:#7db4f0; --on-ink:#10161f;
+}}
 :root[data-theme="dark"]{
-  --bg:#151A22; --surface:#1C222C; --ink:#E6E9EE; --muted:#9AA3B2; --line:#2E3644;
-  --decomp:#6FB3D6; --recomp:#E0B84A; --port:#B39AE6; --reimpl:#6CC48F;
-  --ok:#6CC48F; --slow:#E0B84A; --stop:#E28585;
+  --substrate:#10161f; --surface:#172030; --ink:#e7ebf2; --graphite:#9aa5b8; --rule:#2a3546; --rule-strong:#66738c;
+  --decomp:#7db4f0; --recomp:#f0b45c; --port:#e39ad6; --reimpl:#6cd3a8; --focus:#7db4f0; --on-ink:#10161f;
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.55 "Atkinson Hyperlegible",system-ui,sans-serif}
+body{margin:0;background:var(--substrate);color:var(--ink);font:400 16px/1.55 var(--font-sans);-webkit-font-smoothing:antialiased}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:var(--radius-1)}
 a{color:inherit}
-:focus-visible{outline:3px solid var(--decomp);outline-offset:2px;border-radius:4px}
-.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
-h1,h2,h3{font-family:"Bricolage Grotesque",sans-serif;line-height:1.1;margin:0}
+.wrap{max-width:1240px;margin:0 auto;padding:0 var(--space-3)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
-header{padding:56px 0 28px}
-h1{font-size:clamp(2.4rem,7vw,4.6rem);font-weight:800;letter-spacing:-.025em;max-width:14ch}
-.lede{max-width:60ch;color:var(--muted);margin:18px 0 0;font-size:1.08rem}
-.meta{margin-top:14px;color:var(--muted);font-size:.92rem}
+/* Cabeçalho */
+header{padding:var(--space-6) 0 var(--space-5)}
+h1{margin:0;font-size:clamp(44px,8.2vw,96px);line-height:.92;font-weight:800;font-stretch:125%;letter-spacing:-.025em;max-width:11ch}
+.lede{margin:var(--space-4) 0 0;max-width:58ch;font-size:19px;line-height:1.5;color:var(--graphite)}
+.meta{margin-top:var(--space-3);font-size:14px;font-stretch:82%;font-weight:500;color:var(--graphite);font-variant-numeric:tabular-nums}
 
-/* O espectro: o elemento memorável da página */
-.spectrum{margin:36px 0 8px}
-.spectrum-axis{display:flex;justify-content:space-between;color:var(--muted);font-size:.88rem;margin-bottom:10px}
-.bands{display:grid;grid-template-columns:repeat(4,1fr);gap:4px}
-.band{position:relative;display:flex;flex-direction:column;justify-content:flex-start;background:var(--surface);border-top:6px solid var(--c);padding:18px 16px 20px;cursor:pointer;text-align:left;font:inherit;color:inherit;border-left:0;border-right:0;border-bottom:0;transition:background .15s}
-.band:hover{background:color-mix(in srgb,var(--c) 10%,var(--surface))}
-.band[aria-pressed="true"]{background:color-mix(in srgb,var(--c) 18%,var(--surface))}
-.band h3{font-size:1.35rem;font-weight:600;color:var(--c)}
-.band .count{font-family:"Bricolage Grotesque",sans-serif;font-size:.95rem;color:var(--muted);margin-top:2px}
-.band p{margin:10px 0 0;font-size:.95rem}
-.band .keeps{margin-top:auto;padding-top:12px;font-size:.85rem;color:var(--muted)}
-.gauge{display:flex;height:8px;margin-top:8px;background:var(--line)}
-.gauge span{display:block;background:var(--c)}
-.bands-hint{color:var(--muted);font-size:.88rem;margin:10px 0 0}
+/* Medidor de origem */
+.meter{display:inline-grid;grid-template-columns:repeat(4,1fr);gap:var(--space-1);width:40px;height:6px;flex:none}
+.meter i{display:block;background:var(--rule)}
+.meter[data-fill="1"] i:nth-child(-n+1),.meter[data-fill="2"] i:nth-child(-n+2),.meter[data-fill="3"] i:nth-child(-n+3),.meter[data-fill="4"] i{background:var(--c)}
+.meter.large{width:100%;height:10px}
+
+/* Espectro */
+.axis{display:flex;justify-content:space-between;font-size:13px;font-weight:500;color:var(--graphite);margin:0 0 var(--space-2)}
+.spectrum{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--ink);border-bottom:1px solid var(--rule)}
+.band{font:inherit;color:inherit;text-align:left;background:transparent;border:0;border-left:1px solid var(--rule);padding:var(--space-3) var(--space-3) 20px;cursor:pointer;display:flex;flex-direction:column;gap:var(--space-2)}
+.band:first-child{border-left:0}
+.band:hover{background:var(--surface)}
+.band[aria-pressed="true"]{background:var(--ink);color:var(--on-ink);--c:var(--on-ink)}
+.band[aria-pressed="true"] .meter i{background:color-mix(in srgb,var(--on-ink) 28%,transparent)}
+.band[aria-pressed="true"] .meter[data-fill="1"] i:nth-child(-n+1),.band[aria-pressed="true"] .meter[data-fill="2"] i:nth-child(-n+2),
+.band[aria-pressed="true"] .meter[data-fill="3"] i:nth-child(-n+3),.band[aria-pressed="true"] .meter[data-fill="4"] i{background:var(--on-ink)}
+.band-name{font-size:24px;line-height:1.1;font-weight:700;font-stretch:112%;letter-spacing:-.01em;color:var(--c)}
+.band-count{font-size:14px;font-weight:500;font-stretch:82%;font-variant-numeric:tabular-nums;opacity:.85}
+.band p{margin:0;font-size:15px;line-height:1.5}
+.band .keeps{font-size:13px;opacity:.8;margin-top:auto;padding-top:var(--space-2)}
+.hint{font-size:13px;color:var(--graphite);margin:var(--space-2) 0 0}
 
 /* Filtros */
-.controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:14px 0;margin-top:28px;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:10px;align-items:center}
-.controls input,.controls select{font:inherit;font-size:.95rem;color:var(--ink);background:var(--surface);border:1px solid var(--line);padding:9px 12px;border-radius:6px}
-.controls input{flex:1 1 260px;min-width:0}
-.controls select{flex:0 1 auto}
-.result-count{color:var(--muted);font-size:.9rem;margin-left:auto}
+.filters{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:var(--space-2);align-items:center;padding:12px 0;margin-top:var(--space-5);background:var(--substrate);border-bottom:1px solid var(--ink)}
+.filters input,.filters select{font:inherit;font-size:15px;color:var(--ink);background:var(--surface);border:1px solid var(--rule-strong);border-radius:var(--radius-1);padding:9px 12px;min-width:0}
+.filters input{flex:1 1 260px}
+.filters select{flex:0 1 auto;max-width:100%}
+.count{margin-left:auto;font-size:14px;font-weight:500;font-stretch:82%;color:var(--graphite);font-variant-numeric:tabular-nums}
 
 /* Lista */
-.list{list-style:none;margin:0;padding:0 0 64px}
-.row{display:grid;grid-template-columns:8px minmax(0,2.2fr) minmax(0,1.2fr) minmax(0,1fr) 120px;gap:18px;align-items:start;padding:18px 0;border-bottom:1px solid var(--line)}
-.row .stripe{align-self:stretch;background:var(--c);border-radius:2px}
-.row h3{font-size:1.15rem;font-weight:600}
+.list{list-style:none;margin:0;padding:0}
+.row{display:grid;grid-template-columns:40px minmax(0,2.4fr) minmax(0,1fr) minmax(0,1.3fr) 128px;gap:var(--space-3) 20px;align-items:start;padding:var(--space-4) var(--space-2);border-bottom:1px solid var(--rule)}
+.row:hover{background:var(--surface)}
+.row .meter{margin-top:8px}
+.row h3{margin:0;font-size:17px;line-height:1.25;font-weight:600}
 .row h3 a{text-decoration:none}
-.row h3 a:hover{text-decoration:underline}
-.row .game{color:var(--muted);font-size:.95rem;margin-top:2px}
-.row .desc{margin:6px 0 0;font-size:.95rem;max-width:62ch}
-.kind{font-weight:700;color:var(--c);font-size:.92rem}
-.small{font-size:.9rem;color:var(--muted)}
-.status{font-size:.9rem;display:flex;gap:7px;align-items:center}
-.dot{width:9px;height:9px;border-radius:50%;background:var(--sc);flex:none}
-.empty{padding:48px 0;color:var(--muted)}
-.empty button{font:inherit;color:var(--decomp);background:none;border:0;text-decoration:underline;cursor:pointer;padding:0}
+.row h3 a:hover{text-decoration:underline;text-underline-offset:3px}
+.game{font-size:15px;color:var(--graphite);margin-top:2px}
+.desc{font-size:15px;line-height:1.5;margin:var(--space-2) 0 0;max-width:64ch}
+.tags{display:flex;flex-wrap:wrap;gap:var(--space-2);margin-top:var(--space-2);align-items:center}
+.kind{font-weight:600;font-size:14px;line-height:1.3;font-stretch:82%;color:var(--c)}
+.data{font-size:14px;line-height:1.4;font-weight:500;font-stretch:82%;color:var(--graphite);font-variant-numeric:tabular-nums}
+.data strong{color:var(--ink);font-weight:600}
+.status{display:inline-flex;align-items:center;gap:var(--space-2);font-size:14px;font-weight:500;font-stretch:82%}
+.status::before{content:"";width:9px;height:9px;border-radius:50%;border:1.5px solid var(--ink);flex:none}
+.status[data-s="ativo"]::before{background:var(--ink)}
+.status[data-s="lento"]::before{background:linear-gradient(90deg,var(--ink) 50%,transparent 50%)}
+.status[data-s="desconhecido"]::before{border-style:dotted;border-color:var(--graphite)}
+.ai{display:inline-block;font-size:12.5px;line-height:1.3;font-weight:500;color:var(--graphite);border:1px solid var(--graphite);padding:1px 6px;border-radius:var(--radius-1)}
+.ai[data-ai="generated"]{padding-left:12px;background:repeating-linear-gradient(135deg,var(--graphite) 0 1px,transparent 1px 4px) left/7px 100% no-repeat}
+.src{font-size:12.5px;color:var(--graphite)}
+.more{display:block;margin:var(--space-4) auto var(--space-5);font:inherit;font-size:15px;font-weight:600;color:var(--ink);background:transparent;border:1px solid var(--ink);border-radius:var(--radius-1);padding:10px 20px;cursor:pointer}
+.more:hover{background:var(--ink);color:var(--on-ink)}
+.empty{padding:var(--space-5) 0;color:var(--graphite)}
+.empty button{font:inherit;color:var(--ink);background:none;border:0;text-decoration:underline;cursor:pointer;padding:0}
 
-footer{border-top:1px solid var(--line);padding:24px 0 48px;color:var(--muted);font-size:.9rem}
-footer p{max-width:70ch;margin:0 0 8px}
+[data-type="decomp"]{--c:var(--decomp)} [data-type="recomp"]{--c:var(--recomp)}
+[data-type="port"]{--c:var(--port)} [data-type="reimpl"]{--c:var(--reimpl)}
+
+/* Rodapé */
+footer{border-top:1px solid var(--ink);padding:var(--space-4) 0 var(--space-5);color:var(--graphite);font-size:14px}
+footer h2{font-size:15px;color:var(--ink);margin:0 0 var(--space-2);font-weight:700}
+footer p{max-width:72ch;margin:0 0 var(--space-3)}
+footer ul{margin:0 0 var(--space-3);padding-left:18px;max-width:72ch}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-5)}
 
 @media (max-width:820px){
-  .bands{grid-template-columns:1fr 1fr}
-  .row{grid-template-columns:6px 1fr;gap:6px 14px}
-  .row .stripe{grid-row:span 4}
-  .row > div:not(.stripe){grid-column:2}
-  .result-count{margin-left:0;width:100%}
+  header{padding-top:var(--space-5)}
+  .spectrum{grid-template-columns:1fr 1fr}
+  .band:nth-child(3){border-left:0}
+  .band:nth-child(n+3){border-top:1px solid var(--rule)}
+  .row{grid-template-columns:40px 1fr;gap:var(--space-2) var(--space-3)}
+  .row>*:nth-child(n+3){grid-column:2}
+  .count{margin-left:0;width:100%}
+  .cols{grid-template-columns:1fr;gap:0}
 }
-@media (max-width:480px){ .bands{grid-template-columns:1fr} .spectrum-axis{display:none} header{padding-top:36px} }
-@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media (max-width:480px){
+  .spectrum{grid-template-columns:1fr}
+  .band{border-left:0;border-top:1px solid var(--rule)}
+  .band:first-child{border-top:0}
+  .axis{display:none}
+}
 </style>
 </head>
 <body>
 <header class="wrap">
   <h1>Jogos antigos, código novo</h1>
-  <p class="lede">Um catálogo de projetos que trazem jogos clássicos para PC e outras plataformas, reconstruindo o código, traduzindo o executável ou reescrevendo o motor do zero. Atualizado todos os dias.</p>
+  <p class="lede">Um catálogo de projetos que levam jogos clássicos para PC e outras plataformas: reconstruindo o código-fonte, traduzindo o executável ou reescrevendo o motor do zero. Atualizado todos os dias.</p>
   <p class="meta" id="meta">Carregando catálogo…</p>
-
-  <section class="spectrum" aria-labelledby="sp-title">
-    <h2 id="sp-title" class="visually-hidden" style="position:absolute;left:-9999px">Os quatro tipos de projeto</h2>
-    <div class="spectrum-axis" aria-hidden="true"><span>Mais perto do código original</span><span>Código totalmente novo</span></div>
-    <div class="bands" id="bands"></div>
-    <p class="bands-hint">Toque em um tipo para filtrar a lista. A barra mostra quanto do jogo original o projeto reaproveita.</p>
-  </section>
 </header>
 
 <main class="wrap">
-  <div class="controls" role="search">
-    <label for="q" style="position:absolute;left:-9999px">Buscar</label>
+  <section aria-labelledby="sp">
+    <h2 id="sp" class="sr">Os quatro tipos de projeto</h2>
+    <div class="axis" aria-hidden="true"><span>Mais perto do código original</span><span>Código totalmente novo</span></div>
+    <div class="spectrum" id="bands"></div>
+    <p class="hint">Escolha um tipo para filtrar a lista. A barra mostra quanto do jogo original o projeto reaproveita.</p>
+  </section>
+
+  <div class="filters" role="search">
+    <label class="sr" for="q">Buscar</label>
     <input id="q" type="search" placeholder="Buscar jogo, projeto ou plataforma">
-    <label for="plat" style="position:absolute;left:-9999px">Plataforma original</label>
+    <label class="sr" for="plat">Plataforma original</label>
     <select id="plat"><option value="">Todas as plataformas</option></select>
-    <label for="st" style="position:absolute;left:-9999px">Atividade</label>
+    <label class="sr" for="st">Atividade</label>
     <select id="st">
       <option value="">Qualquer atividade</option>
-      <option value="ativo">Ativo (commit nos últimos 6 meses)</option>
-      <option value="lento">Lento (6 meses a 2 anos)</option>
-      <option value="parado">Parado (mais de 2 anos)</option>
+      <option value="ativo">Ativo: commit nos últimos 6 meses</option>
+      <option value="lento">Lento: de 6 meses a 2 anos</option>
+      <option value="parado">Parado: mais de 2 anos</option>
     </select>
-    <label for="sort" style="position:absolute;left:-9999px">Ordenar</label>
+    <label class="sr" for="ai">Uso de IA</label>
+    <select id="ai">
+      <option value="">Qualquer uso de IA</option>
+      <option value="no-ai">Sem IA declarada</option>
+      <option value="assisted">IA assistida</option>
+      <option value="generated">Gerado por IA</option>
+    </select>
+    <label class="sr" for="sort">Ordenar</label>
     <select id="sort">
-      <option value="game">Ordenar por jogo</option>
       <option value="recent">Atividade mais recente</option>
+      <option value="game">Jogo, de A a Z</option>
       <option value="added">Adicionados por último</option>
     </select>
-    <span class="result-count" id="count" aria-live="polite"></span>
+    <span class="count" id="count" aria-live="polite"></span>
   </div>
+
   <ul class="list" id="list"></ul>
+  <button class="more" id="more" hidden>Mostrar mais 100</button>
 </main>
 
 <footer class="wrap">
-  <p>Este catálogo só aponta para os projetos. Nenhum deles distribui o jogo: quase todos exigem que você tenha sua própria cópia legal do original.</p>
-  <p>Encontrou um erro ou falta algum projeto? Abra uma issue no repositório do site.</p>
+  <div class="cols">
+    <div>
+      <h2>Sobre o catálogo</h2>
+      <p>O catálogo só aponta para os projetos. Nenhum deles distribui o jogo: quase todos exigem que você tenha sua própria cópia legal do original.</p>
+      <p>A atividade vem da data do último commit de cada repositório. Projetos fora do GitHub aparecem como "sem dados" quando não é possível conferir.</p>
+      <p>O uso de IA é o declarado pelas fontes. Quando nenhuma fonte informa, não há marca.</p>
+    </div>
+    <div>
+      <h2>Fontes consultadas</h2>
+      <ul>
+        <li>Listas awesome-game-decompilations e awesome-unofficial-pc-ports</li>
+        <li>Catálogo do Quiver Launcher</li>
+        <li>osgameclones e Wikipedia (engines reimplementadas)</li>
+        <li>Held Games, readonlymemo e tópicos do GitHub</li>
+        <li>Notícias e comunidades de emulação e preservação</li>
+      </ul>
+    </div>
+  </div>
 </footer>
 
 <script>
 const TYPES = {
-  decomp:{name:"Decompilação", c:"--decomp", keep:90,
-    what:"Pessoas reescrevem o executável original em código-fonte legível (C, C++ ou assembly comentado) que compila para o mesmo jogo.",
-    keeps:"Reaproveita a lógica original; só roda na plataforma original até alguém fazer um port."},
-  recomp:{name:"Recompilação estática", c:"--recomp", keep:75,
-    what:"Uma ferramenta traduz automaticamente o código de máquina do console para C e gera um executável nativo, sem emulação.",
-    keeps:"Reaproveita o código original traduzido; o resultado não é legível como uma decompilação."},
-  port:{name:"Port", c:"--port", keep:55,
-    what:"O código de uma decompilação ou de um código-fonte oficial é adaptado para rodar nativamente em PC e outros sistemas.",
-    keeps:"Reaproveita a lógica original, troca gráficos, áudio e controles pela parte nova."},
-  reimpl:{name:"Engine reimplementada", c:"--reimpl", keep:15,
-    what:"Um motor novo, escrito do zero, que lê os arquivos do jogo original (fases, sons, gráficos) e reproduz o comportamento.",
-    keeps:"Só reaproveita os assets; todo o código é novo."}
+  decomp:{name:"Decompilação", fill:4, what:"O executável vira código-fonte legível que compila para o mesmo jogo.", keeps:"Reaproveita toda a lógica original. Roda na plataforma original até alguém fazer um port."},
+  recomp:{name:"Recompilação estática", fill:3, what:"Uma ferramenta traduz o código de máquina do console em C e gera um executável nativo, sem emulação.", keeps:"Reaproveita o código original traduzido; só a camada de plataforma é nova."},
+  port:{name:"Port", fill:2, what:"O código de uma decompilação ou de uma liberação oficial é adaptado para rodar em outros sistemas.", keeps:"Reaproveita a lógica original e troca gráficos, áudio e controles."},
+  reimpl:{name:"Engine reimplementada", fill:1, what:"Um motor novo, escrito do zero, lê os arquivos do jogo original e reproduz o comportamento.", keeps:"Só os arquivos do jogo são reaproveitados; todo o código é novo."}
 };
-const STATUS = {ativo:["Ativo","--ok"], lento:["Lento","--slow"], parado:["Parado","--stop"], desconhecido:["Sem dados","--muted"]};
+const STATUS = {ativo:"Ativo", lento:"Lento", parado:"Parado", desconhecido:"Sem dados"};
+const SOURCES = {"catálogo inicial":"curadoria","manual":"pesquisa","awesome-game-decompilations":"awesome-game-decompilations","awesome-unofficial-pc-ports":"awesome-unofficial-pc-ports","osgameclones":"osgameclones","quiver":"Quiver"};
+const PAGE = 100;
 const $ = s => document.querySelector(s);
-let all = [], typeFilter = "";
+const fmtN = n => n.toLocaleString("pt-BR");
+let all = [], typeFilter = "", shown = PAGE;
 
-function esc(s){return String(s ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
-function fmtDate(d){ if(!d) return "—"; const [y,m,dd]=d.split("-"); return `${dd}/${m}/${y}`; }
+const esc = s => String(s ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmtDate = d => { if(!d) return "sem data"; const [y,m,dd]=d.split("-"); return `${dd}/${m}/${y}`; };
+const meter = (fill, cls="") => `<span class="meter ${cls}" data-fill="${fill}" aria-hidden="true"><i></i><i></i><i></i><i></i></span>`;
 
-function drawBands(){
+function drawBands(animate){
   const counts = all.reduce((a,p)=>(a[p.type]=(a[p.type]||0)+1,a),{});
   $("#bands").innerHTML = Object.entries(TYPES).map(([k,t])=>`
-    <button class="band" style="--c:var(${t.c})" data-type="${k}" aria-pressed="${typeFilter===k}">
-      <h3>${t.name}</h3>
-      <div class="count">${counts[k]||0} projetos</div>
+    <button class="band" data-type="${k}" aria-pressed="${typeFilter===k}">
+      <span class="band-name">${t.name}</span>
+      <span class="band-count" data-n="${counts[k]||0}">${fmtN(counts[k]||0)} projetos</span>
+      ${meter(t.fill,"large")}
       <p>${t.what}</p>
-      <div class="keeps">${t.keeps}</div>
-      <div class="gauge" aria-hidden="true"><span style="width:${t.keep}%"></span></div>
+      <span class="keeps">${t.keeps}</span>
     </button>`).join("");
   document.querySelectorAll(".band").forEach(b=>b.onclick=()=>{
-    typeFilter = typeFilter===b.dataset.type ? "" : b.dataset.type; drawBands(); render();
+    typeFilter = typeFilter===b.dataset.type ? "" : b.dataset.type; shown=PAGE; drawBands(false); render();
   });
+  if(animate && !matchMedia("(prefers-reduced-motion: reduce)").matches){
+    const els=[...document.querySelectorAll(".band-count")], t0=performance.now();
+    const step=t=>{const k=Math.min(1,(t-t0)/700), e=1-Math.pow(1-k,3);
+      els.forEach(el=>el.textContent=`${fmtN(Math.round(el.dataset.n*e))} projetos`); if(k<1) requestAnimationFrame(step);};
+    requestAnimationFrame(step);
+  }
+}
+
+function filtered(){
+  const q=$("#q").value.trim().toLowerCase(), plat=$("#plat").value, st=$("#st").value, ai=$("#ai").value, sort=$("#sort").value;
+  const items = all.filter(p =>
+    (!typeFilter || p.type===typeFilter) && (!plat || p.original_platform===plat) && (!st || p.status===st) &&
+    (!ai || (ai==="no-ai" ? !p.ai || p.ai==="none" : p.ai===ai)) &&
+    (!q || p._s.includes(q)));
+  const g = p => p.game.startsWith("(") ? p.name : p.game;
+  const cmp = {
+    game:(a,b)=>g(a).localeCompare(g(b),"pt"),
+    recent:(a,b)=>(b.last_commit||"").localeCompare(a.last_commit||"")||g(a).localeCompare(g(b),"pt"),
+    added:(a,b)=>(b.added||"").localeCompare(a.added||"")||g(a).localeCompare(g(b),"pt")
+  }[sort];
+  return items.sort(cmp);
+}
+
+function row(p){
+  const t = TYPES[p.type]||TYPES.port;
+  const targets = (p.target_platforms||[]).join(", ");
+  const where = targets ? `Roda em ${esc(targets)}` : (p.type==="decomp" ? "Gera o jogo para a plataforma original" : "Plataformas não informadas");
+  const ai = p.ai==="assisted" ? `<span class="ai" data-ai="assisted">IA assistida</span>` : p.ai==="generated" ? `<span class="ai" data-ai="generated">Gerado por IA</span>` : "";
+  const src = (p.sources||[]).map(s=>SOURCES[s]||s).join(", ");
+  return `<li class="row" data-type="${p.type}">
+    ${meter(t.fill)}
+    <div>
+      <h3><a href="${esc(p.url)}" rel="noopener" target="_blank">${esc(p.name)}</a></h3>
+      <div class="game">${esc(p.game)}</div>
+      <p class="desc">${esc(p.description)}</p>
+      <div class="tags">${ai}<span class="src">Fonte: ${esc(src)}</span></div>
+    </div>
+    <div><div class="kind">${t.name}</div><div class="data">${p.original_platform==="Não informada"?"Plataforma original não informada":"Original: <strong>"+esc(p.original_platform)+"</strong>"}</div></div>
+    <div class="data">${where}${p.requires_original_game===false?"<br>Não precisa do jogo original":""}</div>
+    <div><span class="status" data-s="${p.status}">${STATUS[p.status]||STATUS.desconhecido}</span><div class="data">${p.last_commit?"Último commit "+fmtDate(p.last_commit):"Sem data de commit"}</div></div>
+  </li>`;
 }
 
 function render(){
-  const q = $("#q").value.trim().toLowerCase(), plat=$("#plat").value, st=$("#st").value, sort=$("#sort").value;
-  let items = all.filter(p =>
-    (!typeFilter || p.type===typeFilter) && (!plat || p.original_platform===plat) && (!st || p.status===st) &&
-    (!q || [p.name,p.game,p.original_platform,p.description,(p.target_platforms||[]).join(" ")].join(" ").toLowerCase().includes(q)));
-  const key=p=>p.game.startsWith("(")?p.name:p.game;
-  const cmp = {game:(a,b)=>key(a).localeCompare(key(b),"pt"), recent:(a,b)=>(b.last_commit||"").localeCompare(a.last_commit||""),
-               added:(a,b)=>(b.added||"").localeCompare(a.added||"")||key(a).localeCompare(key(b),"pt")}[sort];
-  items.sort(cmp);
-  $("#count").textContent = `${items.length} de ${all.length} projetos`;
+  const items = filtered();
+  $("#count").textContent = `${fmtN(items.length)} de ${fmtN(all.length)} projetos`;
   if(!items.length){
     $("#list").innerHTML = `<li class="empty">Nenhum projeto com esses filtros. <button id="clear">Limpar filtros</button></li>`;
-    $("#clear").onclick=()=>{ $("#q").value="";$("#plat").value="";$("#st").value="";typeFilter="";drawBands();render(); };
+    $("#more").hidden = true;
+    $("#clear").onclick=()=>{ ["#q","#plat","#st","#ai"].forEach(s=>$(s).value=""); typeFilter=""; shown=PAGE; drawBands(false); render(); };
     return;
   }
-  $("#list").innerHTML = items.map(p=>{
-    const t=TYPES[p.type]||TYPES.port, s=STATUS[p.status]||STATUS.desconhecido;
-    const targets=(p.target_platforms||[]).join(", ");
-    return `<li class="row" style="--c:var(${t.c})">
-      <div class="stripe" aria-hidden="true"></div>
-      <div>
-        <h3><a href="${esc(p.url)}" rel="noopener" target="_blank">${esc(p.name)}</a></h3>
-        <div class="game">${esc(p.game)}</div>
-        <p class="desc">${esc(p.description)}</p>
-      </div>
-      <div><div class="kind">${t.name}</div><div class="small">Original: ${esc(p.original_platform)}</div></div>
-      <div class="small">${targets ? "Roda em: "+esc(targets) : "Gera o jogo para a plataforma original"}${p.requires_original_game===false?"<br>Não precisa do jogo original":""}</div>
-      <div><div class="status" style="--sc:var(${s[1]})"><span class="dot"></span>${s[0]}</div><div class="small">Último commit ${fmtDate(p.last_commit)}</div></div>
-    </li>`;}).join("");
+  $("#list").innerHTML = items.slice(0,shown).map(row).join("");
+  const left = items.length - shown;
+  $("#more").hidden = left <= 0;
+  $("#more").textContent = `Mostrar mais ${fmtN(Math.min(PAGE,left))}`;
 }
 
 fetch("data/projects.json",{cache:"no-cache"}).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); }).then(d=>{
-  all = d.projects;
-  $("#meta").textContent = `${all.length} projetos, atualizado em ${fmtDate(d.updated)}`;
-  [...new Set(all.map(p=>p.original_platform))].sort((a,b)=>a.localeCompare(b,"pt"))
-    .forEach(p=>$("#plat").insertAdjacentHTML("beforeend",`<option>${esc(p)}</option>`));
-  drawBands(); render();
-  ["#q","#plat","#st","#sort"].forEach(s=>$(s).addEventListener("input",render));
-}).catch(()=>{ $("#meta").textContent="Não foi possível carregar o catálogo. Recarregue a página em alguns instantes."; });
+  all = d.projects.map(p=>({...p,_s:[p.name,p.game,p.original_platform,p.description,(p.target_platforms||[]).join(" ")].join(" ").toLowerCase()}));
+  const ai = all.filter(p=>p.ai==="assisted"||p.ai==="generated").length;
+  $("#meta").textContent = `${fmtN(all.length)} projetos, atualizado em ${fmtDate(d.updated)}. ${fmtN(ai)} declaram uso de IA.`;
+  const plats = all.reduce((a,p)=>(a[p.original_platform]=(a[p.original_platform]||0)+1,a),{});
+  Object.keys(plats).sort((a,b)=>a==="Não informada"?1:b==="Não informada"?-1:a.localeCompare(b,"pt"))
+    .forEach(p=>$("#plat").insertAdjacentHTML("beforeend",`<option value="${esc(p)}">${esc(p)} (${fmtN(plats[p])})</option>`));
+  drawBands(true); render();
+  ["#plat","#st","#ai","#sort"].forEach(s=>$(s).addEventListener("change",()=>{shown=PAGE;render();}));
+  let t; $("#q").addEventListener("input",()=>{clearTimeout(t); t=setTimeout(()=>{shown=PAGE;render();},150);});
+  $("#more").onclick=()=>{shown+=PAGE; render();};
+}).catch(()=>{ $("#meta").textContent="Não foi possível carregar o catálogo. Recarregue a página."; });
 </script>
 </body>
 </html>

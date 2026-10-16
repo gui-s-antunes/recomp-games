@@ -9,21 +9,23 @@ from concurrent.futures import ThreadPoolExecutor
 
 
 def check(repo):
+    """repo pode ser 'dono/repo' (GitHub) ou uma URL completa de qualquer host git."""
     with tempfile.TemporaryDirectory() as d:
-        url = f"https://github.com/{repo}.git"
+        url = repo if repo.startswith("http") else f"https://github.com/{repo}.git"
         run = lambda *a: subprocess.run(["git", "-C", d, *a], capture_output=True, text=True, timeout=120)
         try:
             run("init", "-q")
             r = run("fetch", "-q", "--depth=1", "--filter=blob:none", url, "HEAD")
             if r.returncode != 0:
                 return {"repo": repo, "ok": False, "last_commit": None}
-            date = run("log", "-1", "--format=%cs", "FETCH_HEAD").stdout.strip()
-            return {"repo": repo, "ok": True, "last_commit": date or None}
+            out = run("log", "-1", "--format=%cs %H", "FETCH_HEAD").stdout.split()
+            date, sha = (out + [None, None])[:2]
+            return {"repo": repo, "ok": True, "last_commit": date, "sha": sha}
         except Exception:
             return {"repo": repo, "ok": False, "last_commit": None}
 
 
 if __name__ == "__main__":
-    with ThreadPoolExecutor(8) as ex:
+    with ThreadPoolExecutor(16) as ex:
         for res in ex.map(check, sys.argv[1:]):
             print(json.dumps(res), flush=True)

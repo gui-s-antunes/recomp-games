@@ -22,16 +22,17 @@ def status(d, today):
 def main():
     data = json.load(open(PATH, encoding="utf-8"))
     today = datetime.date.today()
-    github = [p for p in data["projects"] if p.get("repo")]
-    with ThreadPoolExecutor(8) as ex:
-        results = {r["repo"]: r for r in ex.map(check, [p["repo"] for p in github])}
+    github = [p for p in data["projects"] if p.get("git") or p.get("repo")]
+    with ThreadPoolExecutor(16) as ex:
+        results = {r["repo"]: r for r in ex.map(check, [p.get("git") or p["repo"] for p in github])}
     failed = []
     for p in github:
-        r = results[p["repo"]]
+        r = results[p.get("git") or p["repo"]]
         if r["ok"]:
             p["last_commit"] = r["last_commit"]
+            p["sha"] = r.get("sha")
         else:
-            failed.append(p["repo"])
+            failed.append(p.get("git") or p["repo"])
         p["status"] = status(p.get("last_commit"), today)
     data["updated"] = today.isoformat()
     json.dump(data, open(PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
