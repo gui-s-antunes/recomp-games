@@ -1,5 +1,7 @@
 https://github.com/flashfire199/Armored-core-ReAnswered
 https://github.com/gcsmith/Pilotwings64Recomp
+https://github.com/gp-alex/OpenKKND
+https://github.com/REVana360/vana360
 https://github.com/primedecomp/echoes
 https://github.com/ieee802dot11ac/rb3ds
 https://github.com/3DWCommunity/3dcomp
