@@ -6,7 +6,6 @@ https://github.com/primedecomp/echoes
 https://github.com/ieee802dot11ac/rb3ds
 https://github.com/3DWCommunity/3dcomp
 https://github.com/Moddimation/KinokoDecomp-S
-https://github.com/Costume-Quest-Modding/CostumeQuest-Decomp
 https://github.com/mikompilation/minakami
 https://github.com/dingusdev/gunmetal-decomp
 https://github.com/danvratil/jhgpc98decomp
