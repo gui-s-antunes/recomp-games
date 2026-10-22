@@ -2033,3 +2033,148 @@ https://github.com/360recomper/UFC3ReX	UFC3ReX	UFC Undisputed 3	Xbox 360	recomp	
 https://github.com/Crypto137/Rehydrated	Rehydrated	Diablo III	Xbox 360	recomp		busca "rexglue"
 https://github.com/sihost/WebReX	WebReX	(ferramenta) runtime ReXGlue no navegador	Xbox 360	recomp	assisted	busca "rexglue"
 https://github.com/FIZL0/opentennis	OpenTennis	Hot Shots Tennis (Everybody's Tennis)	PlayStation 2	reimpl		busca "ps2recomp"
+
+# Achados em pesquisa manual em 2026-10-22 (Wikipedia não lida; EGW, Held Games, readonlymemo, decomp.dev via busca, tópicos/orgs do GitHub, GitLab/Codeberg/sourcehut via busca, notícias).
+https://github.com/niuus/Descent-Wii	Descent-Wii	Descent	PC (DOS)	port		Emulation General Wiki
+https://github.com/RossMeikleham/DXX-3DS	DXX-3DS	Descent / Descent II	PC (DOS)	port		Emulation General Wiki
+https://github.com/iNdioNicarao/dxx-3ds	dxx-3ds (New 3DS, picaGL)	Descent	PC (DOS)	port	assisted	Emulation General Wiki (DXX-3DS)
+https://github.com/tangOS-decomps/sm64ds-decomp	sm64ds-decomp (tangOS-decomps)	Super Mario 64 DS	Nintendo DS	decomp		decomp.dev (org tangOS-decomps)
+https://github.com/cyberheater/Xbox-360-Quake4-decomp	Xbox 360 Quake 4 decomp	Quake 4	Xbox 360	recomp	assisted	decomp.dev (busca)
+https://github.com/CanuckAussieKev/thug2-decomp	thug2-decomp	Tony Hawk's Underground 2	PC (Windows)	decomp		decomp.dev (busca)
+https://github.com/JohnDeved/populous-new-dawn	Populous New Dawn	Populous: The Beginning	PC (Windows)	reimpl		decomp.dev (busca)
+https://github.com/nickallevato/mi_n64_exe	Mission: Impossible (N64) static recompilation	Mission: Impossible	Nintendo 64	recomp		decomp.dev (busca)
+https://github.com/sirbilliams/neutron2-Android	Jimmy Neutron vs. Jimmy Negatron Recomp	Jimmy Neutron vs. Jimmy Negatron	PC (Windows)	port		decomp.dev (busca)
+https://github.com/PhilosophiMoonbeam/35mmIsle	35mmIsle	Pokémon Snap	Nintendo 64	port		decomp.dev (busca)
+https://github.com/Raphael-Boichot/Game-Boy-Camera-disassembly	Game Boy Camera disassembly	Game Boy Camera / Pocket Camera	Game Boy	decomp		decomp.dev (busca)
+https://github.com/r331/driver	driver (PC decomp)	Driver	PC (Windows)	decomp		decomp.dev (busca)
+https://github.com/spitzdano/AidynReChronicled	Aidyn ReChronicled	Aidyn Chronicles: The First Mage	Nintendo 64	recomp	generated	decomp.dev (busca)
+https://github.com/spitzdano/n64-recomp-toolkit	n64-recomp-toolkit	(ferramenta) N64Recomp toolchain	Nintendo 64	recomp	assisted	decomp.dev (busca)
+https://github.com/bmfrench89/skiesofarcadiadecomp	Skies of Arcadia Legends native PC port	Skies of Arcadia Legends	GameCube	recomp		decomp.dev (busca)
+https://github.com/bryankruman/BeetleDecomp	BeetleDecomp (fork AI-assisted)	Beetle Adventure Racing!	Nintendo 64	decomp	assisted	decomp.dev (busca)
+https://github.com/gipson-dev/64CBFD	64CBFD	Conker's Bad Fur Day	Nintendo 64	decomp		decomp.dev (busca)
+https://github.com/matthewkris/wbmw-decomp	wbmw-decomp	Wonder Boy in Monster World	Mega Drive	port		decomp.dev (busca)
+https://github.com/markgiroux3141/Ocarina-of-time-rust-clone	OoT Clone (Rust)	The Legend of Zelda: Ocarina of Time	Nintendo 64	port		decomp.dev (busca)
+https://github.com/samuelcaldas/aoe2-ps2-recomp	aoe2-ps2-recomp	Age of Empires II: The Age of Kings	PlayStation 2	recomp		decomp.dev (busca)
+https://github.com/Patt92/recvx-native	RECVX Native	Resident Evil CODE: Veronica X	PlayStation 2	port		decomp.dev (busca)
+https://github.com/southcitycapture/hybridheaven-decomp	hybridheaven-decomp	Hybrid Heaven	Nintendo 64	decomp	generated	decomp.dev (busca)
+https://github.com/Hortus1556/N.O.V.A-3-Decomp-Port	N.O.V.A. 3 Decomp Port	N.O.V.A. 3	Android	recomp		decomp.dev (busca)
+https://github.com/DrPrettyman/FireRedPhaserPort	FireRed in Phaser	Pokémon FireRed	Game Boy Advance	port		decomp.dev (busca)
+https://github.com/sithewok13-dev/OpenJKDF2-iOS	OpenJKDF2 for iOS	Star Wars Jedi Knight: Dark Forces II	PC (Windows)	port		decomp.dev (busca)
+https://github.com/0x2593/Wilde	Wilde	The Legend of Zelda: Breath of the Wild	Wii U	recomp		tópico GitHub static-recompilation
+https://github.com/2Balanced/Shadow-GC-Decomp	Shadow-GC-Decomp	Shadow the Hedgehog	GameCube	decomp		tópico GitHub decompilation
+https://github.com/abilliontokens/bmx-xxx-recomp	bmx-xxx-recomp	BMX XXX	Xbox	recomp		busca GitHub recomp in:name
+https://github.com/adumah/MegaMan64Recomp-NX	MegaMan64Recomp-NX	Mega Man 64	Nintendo 64	port		busca GitHub recomp in:name
+https://github.com/al4xdev/dw3	dw3	Digimon World 2003	PlayStation	port		tópico GitHub decompilation
+https://github.com/Alaxend0l/HWVX-PC-Decomp	HWVX-PC-Decomp	Hot Wheels: Velocity X	PC (Windows)	decomp		busca GitHub decomp in:name
+https://github.com/Alaxend0l/velocityx-decomp	velocityx-decomp	Hot Wheels: Velocity X	GameCube	decomp		tópico GitHub decompilation
+https://github.com/andresarevalo1/BattleBlockRecomp-NX	BattleBlockRecomp-NX	BattleBlock Theater	Xbox 360	recomp		tópico GitHub rexglue
+https://github.com/andrewnakas/thps64	thps64	Tony Hawk's Pro Skater	Nintendo 64	decomp		tópico GitHub decompilation
+https://github.com/andvolodko/dune2-sega-web	dune2-sega-web	Dune II: The Battle for Arrakis	Mega Drive	recomp		tópico GitHub decompilation
+https://github.com/anmolverma5/urban-reign-wasm	urban-reign-wasm	Urban Reign	PlayStation 2	recomp		tópico GitHub static-recompilation
+https://github.com/AntAir267/1nsane-recompiled	1nsane-recompiled	1NSANE	PC (Windows)	recomp		busca GitHub recompiled in:name
+https://github.com/awest813/Madden-10-PSP-recomp	Madden-10-PSP-recomp	Madden NFL 10	PSP	recomp		busca GitHub recomp in:name
+https://github.com/bangmcpe3321/sp2decomp	sp2decomp	Splatoon 2	Nintendo Switch	recomp	assisted	busca GitHub decomp in:name
+https://github.com/bashalarmistdecomp/eternal-silver-sssc-decomp	eternal-silver-sssc-decomp	Lunar: Silver Star Story Complete	PlayStation	decomp		busca GitHub decomp in:name
+https://github.com/biggestsonicfan/ages-decomp	ages-decomp	Sega Ages 2500 Vol. 16: Virtua Fighter 2 / Vol. 19: Fighting Vipers	PlayStation 2	decomp		busca GitHub decomp in:name
+https://github.com/bImPatman/pea-shootin-pete-decomp	pea-shootin-pete-decomp	Pea Shootin' Pete	PC (DOS)	decomp		busca GitHub decomp in:name
+https://github.com/BlekjekSudo/mksm-nx	mksm-nx	Mortal Kombat: Shaolin Monks	Xbox	recomp		tópico GitHub static-recompilation
+https://github.com/bstoney-yt/Mercenaries-2-Decompilation	Mercenaries-2-Decompilation	Mercenaries 2: World in Flames	PC (Windows)	decomp		busca GitHub decomp in:name
+https://github.com/chrissotraidis/tribespad	tribespad	Tribes 2	PC (Windows)	recomp		tópico GitHub static-recompilation
+https://github.com/CleoSp/chibirobo-decomp	chibirobo-decomp	Chibi-Robo!	GameCube	decomp		busca GitHub decomp in:name
+https://github.com/daaki85/darksun-recompiled	darksun-recompiled	Dark Sun: Shattered Lands / Wake of the Ravager	PC (DOS)	recomp		busca GitHub recompiled in:name
+https://github.com/DennisSnijder/open-sinnoh	open-sinnoh	Pokémon Platinum	Nintendo DS	reimpl		tópico GitHub decomp
+https://github.com/DoutorRaposo/moonpearl	moonpearl	The Legend of Zelda: A Link to the Past	Super Nintendo	port		tópico GitHub recomp
+https://github.com/dreyranos/MCLA-Recompiled-Mobile	MCLA-Recompiled-Mobile	Midnight Club: Los Angeles	Xbox 360	recomp		busca GitHub recompiled in:name
+https://github.com/Frostie77/Tooie-Recompiled	Tooie-Recompiled	Banjo-Tooie	Nintendo 64	recomp		busca GitHub recompiled in:name
+https://github.com/GabrielBigardi/THPS4-Recomp	THPS4-Recomp	Tony Hawk's Pro Skater 4	PlayStation	recomp		tópico GitHub static-recompilation
+https://github.com/gamesbyian/UR-Recomp	UR-Recomp	Uniracers	Super Nintendo	recomp		busca GitHub recomp in:name
+https://github.com/gascarcella/psxstack	psxstack	(ferramenta)	PlayStation	port		tópico GitHub pc-port
+https://github.com/GenryTheFox0/OrbisGlue	OrbisGlue	(ferramenta)	PlayStation 4	recomp		tópico GitHub static-recompilation
+https://github.com/george0815/halo-3-recomp	halo-3-recomp	Halo 3	Xbox 360	recomp		busca GitHub recomp in:name
+https://github.com/gibbo101/ra2-decomp	ra2-decomp	Command & Conquer: Red Alert 2 - Yuri's Revenge	PC (Windows)	decomp		tópico GitHub decompilation
+https://github.com/GlitchedDot/off-road-challenge-decomp	off-road-challenge-decomp	Off-Road Challenge	Nintendo 64	decomp		busca GitHub decomp in:name
+https://github.com/goldilocks00/viewtiful-joe-2-recompiled	viewtiful-joe-2-recompiled	Viewtiful Joe 2	GameCube	recomp		busca GitHub recompiled in:name
+https://github.com/grant-might/DW3_Recomp	DW3_Recomp	Digimon World 3 / Digimon World 2003	PlayStation	recomp		busca GitHub recomp in:name
+https://github.com/Guchdog/SMT4-decomp	SMT4-decomp	Shin Megami Tensei IV	Nintendo 3DS	decomp		busca GitHub decomp in:name
+https://github.com/Hanz0Hatt0r1/nevergone-recomp	nevergone-recomp	Never Gone	Android	recomp		busca GitHub recomp in:name
+https://github.com/hax0kartik/ikachan	ikachan	Ikachan	Nintendo 3DS	decomp		tópico GitHub decompilation
+https://github.com/HikariLucy/MZM-Recomp	MZM-Recomp	Metroid: Zero Mission	Game Boy Advance	recomp		busca GitHub recomp in:name
+https://github.com/ibtr54/Driv3r-Decompilation	Driv3r-Decompilation	Driv3r		decomp		busca GitHub decomp in:name
+https://github.com/ILFforever/YW4Recomp	YW4Recomp	Yo-kai Watch 4++	Nintendo Switch	recomp		tópico GitHub static-recompilation
+https://github.com/IceburgLettuce17/RayKart	RayKart	Rayman Kart	Mobile (J2ME)	decomp		tópico GitHub decomp
+https://github.com/IceburgLettuce17/PlatSudoku	PlatSudoku	Platinum Sudoku	Mobile (J2ME)	decomp		tópico GitHub decomp
+https://github.com/JoeyLandy/dwm2decomp	dwm2decomp	Dragon Warrior Monsters 2	Game Boy Color	decomp		busca GitHub decomp in:name
+https://github.com/johnnieb333/Oracle-Recompiled	Oracle-Recompiled	The Legend of Zelda: Oracle of Ages / Oracle of Seasons	Game Boy Color	recomp		busca GitHub recompiled in:name
+https://github.com/JohnSoellnerDev/mlss-decomp	mlss-decomp	Mario & Luigi: Superstar Saga	Game Boy Advance	decomp		busca GitHub decomp in:name
+https://github.com/josealmon/hamtaro-heartbreak	hamtaro-heartbreak	Hamtaro: Ham-Ham Heartbreak	Game Boy Advance	decomp		tópico GitHub decompilation
+https://github.com/Juansolo457/fear360-recomp	fear360-recomp	F.E.A.R.	Xbox 360	recomp		busca GitHub recomp in:name
+https://github.com/kirklandsig/halo-mega-bloks-decompiled	halo-mega-bloks-decompiled	Halo Mega Bloks (Project Haggar, cancelado)	Xbox 360	decomp		tópico GitHub static-recompilation
+https://github.com/Kyagara/tactical-decomp	tactical-decomp	Final Fantasy Tactics	PlayStation	decomp		tópico GitHub decomp
+https://github.com/link5669/hm-gc-decomp	hm-gc-decomp	The Haunted Mansion	GameCube	decomp		busca GitHub decomp in:name
+https://github.com/Llamapixels/TenchuZRecomp	TenchuZRecomp	Tenchu Z	Xbox 360	recomp		tópico GitHub static-recompilation
+https://github.com/llesieur99/rac6-totd-decomp	rac6-totd-decomp	Ratchet & Clank Future: Tools of Destruction	PlayStation 3	decomp		busca GitHub decomp in:name
+https://github.com/Lovecore/jurassic-park-arcade-quest	jurassic-park-arcade-quest	Jurassic Park Arcade	Arcade	recomp		tópico GitHub static-recompilation
+https://github.com/Mabec-games/Tekken-3-for-Linux	Tekken-3-for-Linux	Tekken 3	PlayStation	recomp		tópico GitHub recompilation
+https://github.com/malinkin-s/mgrr-nx	mgrr-nx	Metal Gear Rising: Revengeance	Xbox 360	recomp		tópico GitHub static-recompilation
+https://github.com/Mava-b/folklore-decomp	folklore-decomp	Folklore	PlayStation 3	decomp	assisted	busca GitHub decomp in:name
+https://github.com/mech4decomp/Mech4MercDecomp	Mech4MercDecomp	MechWarrior 4: Mercenaries	PC (Windows)	decomp		tópico GitHub decompilation
+https://github.com/MikeRavenelle/DigimonWorld3-Recomp	DigimonWorld3-Recomp	Digimon World 3	PlayStation	recomp		tópico GitHub recomp
+https://github.com/Montick1560/p3-recompiled-and-remastered	p3-recompiled-and-remastered	Patapon	PSP	recomp		busca GitHub recomp in:name
+https://github.com/mrboyplayz/subrosa-recomp	subrosa-recomp	Sub Rosa	PC (Windows)	decomp		busca GitHub recomp in:name
+https://github.com/mschienbein/toejam-earl-decomp	toejam-earl-decomp	ToeJam & Earl	Mega Drive	decomp		busca GitHub decomp in:name
+https://github.com/murkantor/Destruction-Decomp-64	Destruction-Decomp-64	Destruction Derby 64	Nintendo 64	decomp	generated	busca GitHub decomp in:name
+https://github.com/Myth7x/ndsrecomp	ndsrecomp	(ferramenta)	Nintendo DS	recomp		tópico GitHub static-recompilation
+https://github.com/NahuelGenchi/sonic-advance-remaster	sonic-advance-remaster	Sonic Advance / Sonic Advance 2	Game Boy Advance	port		tópico GitHub decompilation
+https://github.com/NoahBPeterson/spore-decomp	spore-decomp	Spore	PC (Windows)	decomp		busca GitHub decomp in:name
+https://github.com/NoulZ-One/Ring-Of-Judgment---Shadow-Hearts-Recomp	Ring-Of-Judgment---Shadow-Hearts-Recomp	Shadow Hearts	PlayStation 2	recomp		tópico GitHub recomp
+https://github.com/NoulZ-One/Ring---Of---Judgment---Covenant	Ring---Of---Judgment---Covenant	Shadow Hearts: Covenant	PlayStation 2	recomp		tópico GitHub recomp
+https://github.com/NVDEMU/WormsWorldPartyRecomp	WormsWorldPartyRecomp	Worms World Party	PlayStation	recomp		busca GitHub recomp in:name
+https://github.com/nxporting/nxport	nxport	(ferramenta)	Nintendo Switch	recomp	assisted	tópico GitHub static-recompilation
+https://github.com/omegakatana92/Cadillacs-and-Dinosaurs-Recomp	Cadillacs-and-Dinosaurs-Recomp	Cadillacs and Dinosaurs	Arcade	recomp		busca GitHub recomp in:name
+https://github.com/pareidolico/eod-recomp	eod-recomp	Test Drive: Eve of Destruction	PlayStation 2	recomp		tópico GitHub recompilation
+https://github.com/pengyz/metroid-decomp	metroid-decomp	Metroid	NES	port		busca GitHub decomp in:name
+https://github.com/RayCarrot/Rayman3Readvanced	Rayman3Readvanced	Rayman 3: Hoodlum Havoc	Game Boy Advance	port		tópico GitHub decomp
+https://github.com/ReGame-Labs/rmpg2-ut_decomp	rmpg2-ut_decomp	Rampage 2: Universal Tour	PlayStation	decomp		busca GitHub decomp in:name
+https://github.com/retrofoundry/helix	helix	(ferramenta)	Nintendo 64	port		tópico GitHub pc-port
+https://github.com/robmerrell/deadly_towers_decomp	deadly_towers_decomp	Deadly Towers	NES	decomp		busca GitHub decomp in:name
+https://github.com/rodrigo-mendonca/BlueStingerRecomp	BlueStingerRecomp	Blue Stinger	Dreamcast	recomp		busca GitHub recomp in:name
+https://github.com/RodriLoy/HarvestMoonSnesDecomp	HarvestMoonSnesDecomp	Harvest Moon	Super Nintendo	decomp		busca GitHub decomp in:name
+https://github.com/rooklz/mkwps3	mkwps3	Mario Kart Wii	Wii	recomp		tópico GitHub static-recompilation
+https://github.com/rzrbld/vurus	vurus	Vyruz: Destruction of the Untel Empire	PC (Windows)	port	assisted	tópico GitHub recompilation
+https://github.com/samuelMadureira23/allstars-port	allstars-port	PlayStation All-Stars Battle Royale	PlayStation 3	recomp		tópico GitHub static-recompilation
+https://github.com/sandroct/CoNRecomp	CoNRecomp	Champions of Norrath	PlayStation 2	recomp		tópico GitHub static-recompilation
+https://github.com/SandstoneDev/universal-ps2-recompiler	universal-ps2-recompiler	(ferramenta)	PlayStation 2	recomp		busca GitHub recomp in:name
+https://github.com/SirCarls/cod3_REcomp_	cod3_REcomp_	Call of Duty 3	Xbox 360	recomp		busca GitHub recomp in:name
+https://github.com/SlippyGetBackHere/looney_tunes_b-ball_recomp	looney_tunes_b-ball_recomp	Looney Tunes B-Ball	Super Nintendo	recomp		busca GitHub recomp in:name
+https://github.com/SmokeDoggy044/CoD2-BRO-Decomp	CoD2-BRO-Decomp	Call of Duty 2: Big Red One	Xbox	decomp		busca GitHub decomp in:name
+https://github.com/spita90/konami-viper-recomp	konami-viper-recomp	Thrill Drive 2 / GTI Club 2	Arcade	recomp		busca GitHub recomp in:name
+https://github.com/Spooky098529/ITC-Recomp	ITC-Recomp	Import Tuner Challenge	Xbox 360	recomp	assisted	busca GitHub recomp in:name
+https://github.com/syleront/catz5-mac	catz5-mac	Catz 5	PC (Windows)	recomp		tópico GitHub static-recompilation
+https://github.com/Tatsh/coastline	coastline	Top Gear Rally	Nintendo 64	decomp		tópico GitHub decompilation
+https://github.com/Tatsh/expert-satphone	expert-satphone	jubeat plus	iOS	decomp		tópico GitHub decompilation
+https://github.com/Tatsh/expert-xylophone	expert-xylophone	REFLEC BEAT plus	iOS	decomp		tópico GitHub decompilation
+https://github.com/Tatsh/expert-rotary-phone	expert-rotary-phone	pop'n rhythmin	iOS	decomp		tópico GitHub decompilation
+https://github.com/TatsunaKyo/YakuzaRecomp	YakuzaRecomp	Yakuza	PlayStation 2	recomp		busca GitHub recomp in:name
+https://github.com/thiago-cipitelli/tagforce-decomp	tagforce-decomp	Yu-Gi-Oh! GX Tag Force	PSP	decomp		busca GitHub decomp in:name
+https://github.com/ThibaudVB/Pokepark-2-Recompiled	Pokepark-2-Recompiled	PokéPark 2: Wonders Beyond	Wii	recomp		busca GitHub recompiled in:name
+https://github.com/toniisound/DKC1Recomp-NX	DKC1Recomp-NX	Donkey Kong Country	Super Nintendo	port		busca GitHub recomp in:name
+https://github.com/ToShredsYouSay/RumbleRecomp	RumbleRecomp	Pokémon Rumble	Wii	recomp		tópico GitHub static-recompilation
+https://github.com/UNREALWINS/jojo-hd-recompiled	jojo-hd-recompiled	JoJo's Bizarre Adventure HD Ver.	Xbox 360	recomp		busca GitHub recomp in:name
+https://github.com/VantageEX/infamous-first-light-pc	infamous-first-light-pc	inFAMOUS First Light	PlayStation 4	recomp		tópico GitHub pc-port
+https://github.com/vasist15-source/BOTWRecomp	BOTWRecomp	The Legend of Zelda: Breath of the Wild	Wii U	recomp		tópico GitHub static-recompilation
+https://github.com/vs-sr-dev/pc-ffcceotwii	pc-ffcceotwii	Final Fantasy Crystal Chronicles: Echoes of Time (Wii)	Wii	recomp		tópico GitHub static-recompilation
+https://github.com/WK2D/N3-Ninety-Nine-Nights-Recomp	N3-Ninety-Nine-Nights-Recomp	Ninety-Nine Nights	Xbox 360	recomp		busca GitHub recomp in:name
+https://github.com/Xalcker/SF2Recomp	SF2Recomp	Street Fighter II	Arcade	recomp	assisted	tópico GitHub static-recompilation
+https://github.com/xDevilRob/JusticeLeagueHeroes-XboxRecomp	JusticeLeagueHeroes-XboxRecomp	Justice League Heroes	Xbox	recomp		busca GitHub recomp in:name
+https://github.com/yacineolivier-maker/ConkerLR-Recomp	ConkerLR-Recomp	Conker: Live & Reloaded	Xbox	recomp		tópico GitHub static-recompilation
+https://github.com/ZynChroMaTiK/ss-advance-decomp	ss-advance-decomp	Serious Sam Advance	Game Boy Advance	port		busca GitHub decomp in:name
+https://github.com/ZevyaDev/dqix-decomp-kit	dqix-decomp-kit	Dragon Quest IX	Nintendo DS	decomp		busca GitHub decomp in:name
+https://github.com/aribrilliantsyah/NFSMW-Recompiled-Mobile	NFSMW-Recompiled-Mobile	Need for Speed: Most Wanted	Xbox	recomp		busca GitHub recompiled in:name
+https://github.com/AndreKfm/Edict	Edict	Quake	PC (DOS)	port		tópico GitHub source-port
+https://github.com/drakolordx7/KillzoneRecomp	KillzoneRecomp	Killzone	PlayStation 2	recomp		tópico GitHub static-recompilation
+https://github.com/mstan/SonicCDRecomp	Sonic CD Recompiled	Sonic CD	Sega CD	recomp		org GitHub mstan
+https://github.com/alexbatalov/ja2	ja2 (port TypeScript)	Jagged Alliance 2	PC (Windows)	port		org GitHub alexbatalov
+https://github.com/buberlo/pt-ipad	P.T. for iPad	P.T.	PlayStation 4	port		PC Gamer / TweakTown (P.T. pt-pc) + busca GitHub
+https://github.com/IlieBanda/PT-iOS	P.T. for iOS	P.T.	PlayStation 4	port	assisted	PC Gamer / TweakTown (P.T. pt-pc) + busca GitHub
+https://github.com/RobinVRL/ACGC-3DS	ACGC-3DS	Animal Crossing	GameCube	port	assisted	GBAtemp + busca GitHub
+https://github.com/Tetroo/acnl-re	acnl-re	Animal Crossing: New Leaf - Welcome amiibo	Nintendo 3DS	reimpl	assisted	busca GitHub (lead GBAtemp)
