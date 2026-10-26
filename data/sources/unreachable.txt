@@ -6,6 +6,9 @@ https://github.com/ACreTeam/cf-decomp
 https://github.com/laqieer/fireemblem8j
 https://github.com/alxblueflame/smgstarlight
 https://github.com/azurejoga/kh-recomp
+https://github.com/euspring1/BlackDefinitiveHDPC
+https://github.com/WINDROID-EMU/NFSMW-RECOMP
+https://github.com/kem0x/RepsiMan
 https://github.com/primedecomp/echoes
 https://github.com/ieee802dot11ac/rb3ds
 https://github.com/3DWCommunity/3dcomp
