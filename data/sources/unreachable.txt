@@ -9,8 +9,10 @@ https://github.com/azurejoga/kh-recomp
 https://github.com/euspring1/BlackDefinitiveHDPC
 https://github.com/WINDROID-EMU/NFSMW-RECOMP
 https://github.com/kem0x/RepsiMan
-https://github.com/colbyshores/turok-port
-https://github.com/fsalamancar/VCSNX
+https://github.com/dj05-cmd/Re4-Android-Recomp
+https://github.com/gleison007/Recompiled-GoofTroop
+https://github.com/MiddleDucky/HP-POA-Xbox-Recomp
+https://github.com/Virtual-AK/p4-pc-recomp
 https://github.com/primedecomp/echoes
 https://github.com/ieee802dot11ac/rb3ds
 https://github.com/3DWCommunity/3dcomp
