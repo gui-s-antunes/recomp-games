@@ -4,7 +4,6 @@ https://github.com/gp-alex/OpenKKND
 https://github.com/REVana360/vana360
 https://github.com/canersaka/Yakuza-Dead-Souls-EX
 https://github.com/iannett/deltasquad
-https://github.com/ACreTeam/cf-decomp
 https://github.com/laqieer/fireemblem8j
 https://github.com/alxblueflame/smgstarlight
 https://github.com/azurejoga/kh-recomp
