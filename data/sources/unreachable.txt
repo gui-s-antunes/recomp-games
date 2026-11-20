@@ -3,7 +3,6 @@ https://github.com/gcsmith/Pilotwings64Recomp
 https://github.com/gp-alex/OpenKKND
 https://github.com/REVana360/vana360
 https://github.com/canersaka/Yakuza-Dead-Souls-EX
-https://github.com/iannett/deltasquad
 https://github.com/laqieer/fireemblem8j
 https://github.com/alxblueflame/smgstarlight
 https://github.com/azurejoga/kh-recomp
@@ -14,6 +13,7 @@ https://github.com/dj05-cmd/Re4-Android-Recomp
 https://github.com/gleison007/Recompiled-GoofTroop
 https://github.com/ianfrombailey/joyfulbattles
 https://github.com/hqpham98/Recompia
+https://github.com/sonicdcer/sf64-dc
 https://github.com/primedecomp/echoes
 https://github.com/ieee802dot11ac/rb3ds
 https://github.com/3DWCommunity/3dcomp
